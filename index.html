@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+</html>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,5 +32,11 @@
         data-hx-get="index.header-hero.partial.html"
       ></section>
     </header>
-  </body>
+
+    <main>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.featured-books.partial.html">
+        </section>
+    </main>
+</body>
+
 </html>
