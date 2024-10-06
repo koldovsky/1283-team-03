@@ -36,3 +36,6 @@ Add the data-proofer-ignore attribute to any tag to ignore it from every check.
 # Team
 *Oleksii Volyk
 *Anna Romanovska
+*Anastasia Niaiko
+*Oleksandr Mytnyk
+*Vitalii Ostapovets
