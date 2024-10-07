@@ -12,14 +12,29 @@
   </head>
   <body>
     <header>
-      <nav></nav>
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="global.header-nav.partial.html"
+      ></nav>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="events.header-hero.partial.html"
       ></section>
     </header>
-    <main></main>
+    <main>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="events.events-partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="events.presentations-partial.html"
+      ></section>
+    </main>
     <footer></footer>
   </body>
 </html>
