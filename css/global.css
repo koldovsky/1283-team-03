@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Della+Respira&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+:root {
+    --primary-brand-color: #7e8734;
+    --secondarybrand-color: #f4ebd9;
+    --primary-headlines-color: #7e8734;
+    --secondary-headlines-color: #feae1c;
+    scroll-behavior: smooth;
+    --primary-font-family: "DM Sans", sans-serif;
+    --secondary-font-family: "Della Respira", serif;
+    --primary-text-color: #212121;
+    --secondary-text-color-: #737373;
+    --primary-green-partial-text-color: #fff;
+    --dot-color: #feae1c;
+}
+
+img {
+    display: block;
+}

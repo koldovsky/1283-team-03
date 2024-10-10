@@ -1,0 +1,19 @@
+.featured-books{
+    background-color: var(--primary-brand-color);
+
+    .featured-books__headline{
+        color: var(--secondary-headlines-color);
+        font-family: var(--primary-font-family);
+        font-size: 12px;
+    }
+
+    .featured-books__discover{
+        font-family: var(--secondary-font-family);
+        color: var(--primary-green-partial-text-color);
+        font-size: 56px;
+    }
+
+    .featured-books-discover-dot{
+        color: var(--dot-color);
+    }
+}

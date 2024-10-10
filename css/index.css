@@ -1,1 +1,3 @@
-@import "./index.about-author.partial.css";
+@import "global.css";
+@import "index.featured-books.partial.css"
+@import "index.about-author.partial.css";
