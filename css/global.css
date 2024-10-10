@@ -19,10 +19,16 @@
     --secondary-font-family: "Della Respira", serif;
     --primary-text-color: #212121;
     --secondary-text-color-: #737373;
-    --primary-green-partial-text-color: #fff;
+    --primary-partial-text-color: #fff;
+    --secondary-partial-text-color: #e8e8e8;
     --dot-color: #feae1c;
 }
 
 img {
     display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
 }
