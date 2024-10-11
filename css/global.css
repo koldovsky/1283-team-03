@@ -1,34 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Della+Respira&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Della+Respira&display=swap");
 
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
-    --primary-brand-color: #7e8734;
-    --secondarybrand-color: #f4ebd9;
-    --primary-headlines-color: #7e8734;
-    --secondary-headlines-color: #feae1c;
-    scroll-behavior: smooth;
-    --primary-font-family: "DM Sans", sans-serif;
-    --secondary-font-family: "Della Respira", serif;
-    --primary-text-color: #212121;
-    --secondary-text-color-: #737373;
-    --primary-partial-text-color: #fff;
-    --secondary-partial-text-color: #e8e8e8;
-    --dot-color: #feae1c;
+  --primary-brand-color: #7e8734;
+  --secondarybrand-color: #f4ebd9;
+  --primary-headlines-color: #7e8734;
+  --secondary-headlines-color: #feae1c;
+  scroll-behavior: smooth;
+  --primary-font-family: "DM Sans", sans-serif;
+  --secondary-font-family: "Della Respira", serif;
+  --primary-text-color: #212121;
+  --secondary-text-color-: #737373;
+  --primary-partial-text-color: #fff;
+  --secondary-partial-text-color: #e8e8e8;
+  --dot-color: #feae1c;
+  --divider-color: #d3d3d3;
+  --secondary-background-color: #c05713;
+
+  --events-secondary-text-color: #565656;
+  --events-header-title-color: var(--primary-partial-text-color);
+  --events-header-dot-color: var(--secondary-headlines-color);
+  --events-breadcrumb-color: var(#e6bca1);
+  --events-partial-dot-color: var(--secondary-background-color);
+  --evets-partial-accent-color: var(--secondary-background-color);
+  --events-partial-description-color: var(--secondary-text-color);
+  --events-presentations-background-color: var(--primary-headlines-color);
+  --events-presentations-title: var(--secondary-headlines-color);
+  --events-presentations-primary-text-color: var(--primary-partial-text-color);
+  --events-presentations-dot-color: var(--secondary-headlines-color);
+  --events-presentations-secondary-text: var(--secondary-partial-text-color);
+  --events-presentations-card-color: #777f30;
+  --events-presentations-card-title: var(--secondarybrand-color);
+  --events-presentations-card-button: var(--secondary-background-color);
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
