@@ -1,15 +1,35 @@
-.about-author {
-  background-color: var();
-}
 .about-author__title {
-  color: var(--secondary-background-color);
+  color: var(--about-author-title-color);
+  font-family: var(--primary-font-family);
+  font-size: 12px;
 }
 .about-author__subtitle {
-  color: var(--primary-text-color);
+  color: var(--about-author-subtitle-color);
+  font-family: var(--secondary-font-family);
+  font-size: 38px;
 }
 .about-author__subtitle-dot {
-  color: var(--dot-color);
+  color: var(--about-author-dot-color);
+  font-family: var(--secondary-font-family);
+  font-size: 38px;
 }
 .about-author__image-description {
-    color: var(); 
+  color: var(--about-author__image-description);
+  font-family: var(--primary-font-family);
+  font-size: 19px;
+}
+.about-author__quotation {
+  color: var(--about-author__quotation);
+  font-family: var(--primary-font-family);
+  font-size: 20px;
+}
+.--about-author__text-biography {
+  color: var(--about-author__text-biography);
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+}
+.about-author__image-typewriter {
+  color: var(--about-author__image-typewriter);
+  font-family: var(--primary-font-family);
+  font-size: 16px;
 }

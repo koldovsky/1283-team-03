@@ -18,7 +18,7 @@
   --primary-font-family: "DM Sans", sans-serif;
   --secondary-font-family: "Della Respira", serif;
   --primary-text-color: #212121;
-  --secondary-text-color-: #737373;
+  --secondary-text-color: #737373;
   --primary-partial-text-color: #fff;
   --secondary-partial-text-color: #e8e8e8;
   --dot-color: #feae1c;
@@ -42,6 +42,18 @@
   --events-presentations-card-color: #777f30;
   --events-presentations-card-title: var(--secondarybrand-color);
   --events-presentations-card-button: var(--secondary-background-color);
+
+  --about-author-title-color: var(--secondary-background-color);
+  --about-author-subtitle-color: var(--primary-text-color);
+  --about-author-dot-color: var(--dot-color);
+  --about-author__image-description: var(--events-secondary-text-color);
+  --about-author__quotation: var(--primary-text-color);
+  --about-author__text-biography: #7b7b7b;
+  --about-author__image-typewriter: var(--secondary-text-color);
+  
+
+
+
 }
 
 img {
