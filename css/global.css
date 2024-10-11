@@ -11,7 +11,7 @@
 
 :root {
   --primary-brand-color: #7e8734;
-  --secondarybrand-color: #f4ebd9;
+  --secondary-brand-color: #f4ebd9;
   --primary-headlines-color: #7e8734;
   --secondary-headlines-color: #feae1c;
   scroll-behavior: smooth;
@@ -24,6 +24,8 @@
   --dot-color: #feae1c;
   --divider-color: #d3d3d3;
   --secondary-background-color: #c05713;
+  --primary-text-category-color: #f3ebd9;
+  --category-description-color: #ffffffa3;
 
   --events-secondary-text-color: #565656;
   --events-header-title-color: var(--primary-partial-text-color);
@@ -44,6 +46,7 @@
 
 img {
   display: block;
+  width: 100%;
 }
 
 .container {
