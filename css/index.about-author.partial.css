@@ -1,0 +1,15 @@
+.about-author {
+  background-color: var();
+}
+.about-author__title {
+  color: var(--secondary-background-color);
+}
+.about-author__subtitle {
+  color: var(--primary-text-color);
+}
+.about-author__subtitle-dot {
+  color: var(--dot-color);
+}
+.about-author__image-description {
+    color: var(); 
+}
