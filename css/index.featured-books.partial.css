@@ -1,19 +1,54 @@
-.featured-books{
+.featured-books {
     background-color: var(--primary-brand-color);
 
-    .featured-books__headline{
+    .featured-books__top {
+        text-align: center;
+    }
+
+    .featured-books__headline {
         color: var(--secondary-headlines-color);
         font-family: var(--primary-font-family);
         font-size: 12px;
     }
 
-    .featured-books__discover{
+    .featured-books__discover {
         font-family: var(--secondary-font-family);
-        color: var(--primary-green-partial-text-color);
+        color: var(--primary-partial-text-color);
         font-size: 56px;
     }
 
-    .featured-books-discover-dot{
+    @media(min-width: 320px) {
+        .featured-books__discover {
+            font-size: 32px;
+        }
+    }
+
+    .featured-books-discover-dot {
         color: var(--dot-color);
+    }
+
+    .featured-books__subtitle{
+        color: var(--secondary-partial-text-color);
+        font-size: 19px;
+        font-family: var(--primary-font-family);
+        margin-top: 20px;
+    }
+
+    .featured-books__list{
+        margin-top: 20px;
+    }
+
+}
+
+
+@media(min-width: 320px) {
+    .featured-books {
+        padding: 70px 24px 110px 24px;
+    }
+}
+
+@media(min-width: 768px) {
+    .featured-books {
+        padding: 0 32px;
     }
 }
