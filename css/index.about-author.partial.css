@@ -38,7 +38,7 @@
 .about-author__image-writer {
   margin-top: 25px;
   display: flex;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 .about-author__quotation {
   color: var(--about-author__quotation);
