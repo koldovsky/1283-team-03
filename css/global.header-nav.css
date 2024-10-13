@@ -1,0 +1,41 @@
+.header__nav{
+    display: flex;
+    font-family: var(--primary-font-family);
+
+    .header__logo-container{
+        width: 119px;
+        height: 88.1px;
+    }
+
+    .header__menu{
+        list-style: none;
+
+        .header__menu-link{
+        color: var( --events-secondary-text-color);
+        }
+
+        .header__menu-link:hover{
+            color: var(--secondary-background-color);
+        }
+    }
+
+    .header__socials{
+        list-style: none;
+
+        .header__social-icon {
+            background-color: var(--primary-headlines-color); /* Зелений фон */
+            border-radius: 50%; /* Кругла форма */
+            padding: 10px; /* Відступи для створення простору навколо іконки */
+            width: 40px; /* Задаємо ширину іконки */
+            height: 40px; /* Задаємо висоту іконки */
+            display: inline-flex; /* Центруємо іконку всередині елемента */
+            justify-content: center;
+            align-items: center;
+          }
+          
+          .header__social-icon svg {
+            width: 100%; /* Іконка займає весь контейнер */
+            height: 100%;
+          }
+}
+}

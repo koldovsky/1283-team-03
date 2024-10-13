@@ -10,13 +10,16 @@
       href="https://placekitten.com/96/139"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="css/index.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
     <header class="header" style="background-color: #f3ebd9">
@@ -38,7 +41,7 @@
         data-hx-get="index.about-author.partial.html"
       ></section>
       <section
-        data-hgitx-trigger="load"
+        data-hx-trigger="load"
         data-hx-swap="outerHTML"
         data-hx-get="index.biography.partial.html"
       ></section>
@@ -65,12 +68,12 @@
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="index.testimonials.partial.html"
+        data-hx-get="index.blog-highlights.partial.html"
       ></section>
       <section
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="index.blog-highlights.partial.html"
+        data-hx-get="index.testimonials.partial.html"
       ></section>
     </main>
   </body>

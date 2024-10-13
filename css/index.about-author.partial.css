@@ -1,15 +1,61 @@
 .about-author {
-  background-color: var();
+  padding: 70px 24px;
+  background-color: var(--primary-partial-text-color);
+}
+@media (min-width: 1440px) {
+  .about-author {
+    background: url(../img/about-author-backgr.svg);
+    background-size: cover;
+  }
 }
 .about-author__title {
-  color: var(--secondary-background-color);
+  color: var(--about-author-title-color);
+  font-family: var(--primary-font-family);
+  font-size: 12px;
 }
 .about-author__subtitle {
-  color: var(--primary-text-color);
+  color: var(--about-author-subtitle-color);
+  font-family: var(--secondary-font-family);
+  font-size: 38px;
+  margin-top: 20px;
 }
 .about-author__subtitle-dot {
-  color: var(--dot-color);
+  color: var(--about-author-dot-color);
+  font-family: var(--secondary-font-family);
+  font-size: 38px;
+}
+.about-author__image-divider {
+  margin-top: 25px;
+  display: flex;
+  max-height: 32px;
 }
 .about-author__image-description {
-    color: var(); 
+  color: var(--about-author__image-description);
+  font-family: var(--primary-font-family);
+  font-size: 19px;
+  margin-top: 20px;
+}
+.about-author__image-writer {
+  margin-top: 25px;
+  display: flex;
+  border-radius: 30px;
+}
+.about-author__quotation {
+  color: var(--about-author__quotation);
+  font-family: var(--primary-font-family);
+  font-size: 20px;
+  margin-top: 60px;
+}
+.about-author__image-sign {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.about-author__image-typewriter {
+  border-radius: 30px;
+}
+.about-author__text-biography {
+  color: var(--secondary-text-color);
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  margin-top: 20px;
 }
