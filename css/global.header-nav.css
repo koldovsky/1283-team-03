@@ -1,5 +1,5 @@
 header {
-    background: #f3ebd9;
+    background: var(--primary-header-background-color);
 
     .header__nav {
         width: 100%;
@@ -40,6 +40,14 @@ header {
         list-style-type: none;
         gap: 15px;
         padding: 0 20px;
+
+        .header__menu-link{
+            color: var(--header-nav-primary-text-color);
+        }
+
+        .header__menu-link:hover{
+            color: var(--header-nav-hover-text-color);
+        }
     }
 
     .header__socials {

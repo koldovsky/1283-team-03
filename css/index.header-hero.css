@@ -1,0 +1,7 @@
+.header__hero{
+    padding: 70px 24px 90px;
+    background-color: rgb(135, 135, 228);
+    .header__hero-subtitle{
+        text-align: center;
+    }
+}
