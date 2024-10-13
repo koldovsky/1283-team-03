@@ -3,8 +3,9 @@ header {
 
     .header__nav {
         width: 100%;
+        display: flex;
         height: 103.1px;
-        /*align-items: center;*/
+        align-items:center;
         padding: 5px 24px 0px;
 
         .header__logo-container {
@@ -13,10 +14,13 @@ header {
 
             .header__logo-image {
                 display: block;
-                max-width: 100%;
+                width: 119px;
+                height: 88.1px;
             }
         }
+@media (max-width: 767px){
 
+    
         .header__menu {
             visibility: hidden;
         }
@@ -26,6 +30,35 @@ header {
         }
     }
 }
+}
+
+
+
+@media (min-width: 768px){
+    .header__menu {
+        display: flex;
+        list-style-type: none;
+        gap: 15px;
+        padding: 0 20px;
+    }
+
+    .header__socials {
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+
+        .header__socials-item{
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .burger_container{
+        visibility: hidden;
+    }
+}
+
+
 
 /* ----------  БУРГЕР МЕНЮ ----------- */
 .burger_container {
