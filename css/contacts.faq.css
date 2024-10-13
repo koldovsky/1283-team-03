@@ -1,0 +1,10 @@
+.contacts-faq__accordion{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.accordion-item{
+    border: none;
+}
+

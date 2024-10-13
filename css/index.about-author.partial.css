@@ -8,6 +8,12 @@
     background-size: cover;
   }
 }
+@media (min-width: 768px) {
+  .about-author {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .about-author__title {
   color: var(--about-author-title-color);
   font-family: var(--primary-font-family);
@@ -37,9 +43,11 @@
 }
 .about-author__image-writer {
   margin-top: 25px;
-  display: flex;
+}
+.about-author__image-writer > img {
   border-radius: 30px;
 }
+
 .about-author__quotation {
   color: var(--about-author__quotation);
   font-family: var(--primary-font-family);
@@ -50,9 +58,11 @@
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.about-author__image-typewriter {
+
+.about-author__image-typewriter > img {
   border-radius: 30px;
 }
+
 .about-author__text-biography {
   color: var(--secondary-text-color);
   font-family: var(--primary-font-family);
