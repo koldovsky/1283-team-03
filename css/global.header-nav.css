@@ -31,7 +31,6 @@ header {
     @media (max-width: 1000px) {
       .header__menu {
         display: none;
-
         flex-direction: column;
         text-align: center;
         line-height: 40px;
@@ -75,7 +74,7 @@ header {
     }
   }
 
-  @media (min-width: 1001px) {
+  @media (min-width: 1000px) {
     .header__nav {
       padding: 10px 40px 5px;
     }
