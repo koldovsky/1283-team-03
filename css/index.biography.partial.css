@@ -35,10 +35,7 @@
 }
 
 .biography__list {
-    padding: auto;
     display: block;
-    flex-direction: column;
-    align-items: left; 
     max-width: 785px; 
     margin-left: auto;
     margin-right: auto;
@@ -46,9 +43,7 @@
 
 .biography__list-item {
     display: block; 
-    align-items: center; 
-    margin-bottom: 40px; 
-    justify-content: center; 
+    margin-bottom: 40px;
 }
 
 .biography__image {
