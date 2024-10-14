@@ -26,6 +26,10 @@
   --secondary-background-color: #c05713;
   --primary-text-category-color: #f3ebd9;
   --category-description-color: #ffffffa3;
+  --title-color: #4f3823; 
+  --subtitle-color: #565656;
+  --description-color: #737373;
+  --blog-item-link-color: #ff7f50;
 
   --events-secondary-text-color: #565656;
   --events-header-title-color: var(--primary-partial-text-color);
