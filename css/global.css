@@ -50,10 +50,14 @@
   --about-author__quotation: var(--primary-text-color);
   --about-author__text-biography: #7b7b7b;
   --about-author__image-typewriter: var(--secondary-text-color);
-  
-  --biography
 
-
+  --contacts-header-title-color: var(--primary-partial-text-color);
+  --contacts-header-title-dot-color: var(--dot-color);
+  --contacts-header-link-primary-color: #ffffff99;
+  --contacts-header-link-secondary-color: var(--primary-partial-text-color);
+  --contacts-contact-the-author-heading-color: var(--primary-text-color);
+  --contacts-line-divider-color: var(--dot-color);
+  --contacts-contact-the-author-color: var(--secondary-text-color);
 
 }
 

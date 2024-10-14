@@ -1,4 +1,5 @@
 @import "global.css";
+@import "global.header-nav.css";
 @import "contacts.header-hero.css"; 
 @import "contacts.contact-the-author.css"; 
 @import "contacts.faq.css";
