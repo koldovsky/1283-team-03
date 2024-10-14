@@ -27,9 +27,10 @@
         width: 272px;
         height: 32px;
         
+        
 
         .header__hero-divider-image {
-            display: block;
+           display: block;
             height: 32px;
             width: 272px;
         }
