@@ -1,5 +1,5 @@
 @import "global.css";
-/* global.nav */
+@import "global.header-nav.css";
 @import "inspiring-young-minds.header-hero.css";
 @import "inspiring-young-minds.partial.css";
 /* footer */

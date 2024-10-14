@@ -26,15 +26,19 @@
   --secondary-background-color: #c05713;
   --primary-text-category-color: #f3ebd9;
   --category-description-color: #ffffffa3;
+  --title-color: #4f3823; 
+  --subtitle-color: #565656;
+  --description-color: #737373;
+  --blog-item-link-color: #ff7f50;
 
   --events-secondary-text-color: #565656;
   --events-header-title-color: var(--primary-partial-text-color);
   --events-header-dot-color: var(--secondary-headlines-color);
-  --events-breadcrumb-color: var(#e6bca1);
+  --events-breadcrumb-color: #e6bca1;
   --events-partial-dot-color: var(--secondary-background-color);
   --evets-partial-accent-color: var(--secondary-background-color);
   --events-partial-description-color: var(--secondary-text-color);
-  --events-presentations-background-color: var(--primary-headlines-color);
+  --events-presentations-background: var(--primary-headlines-color);
   --events-presentations-title: var(--secondary-headlines-color);
   --events-presentations-primary-text-color: var(--primary-partial-text-color);
   --events-presentations-dot-color: var(--secondary-headlines-color);
@@ -50,7 +54,7 @@
   --about-author__quotation: var(--primary-text-color);
   --about-author__text-biography: #7b7b7b;
   --about-author__image-typewriter: var(--secondary-text-color);
-
+  
   --contacts-header-title-color: var(--primary-partial-text-color);
   --contacts-header-title-dot-color: var(--dot-color);
   --contacts-header-link-primary-color: #ffffff99;
@@ -59,6 +63,10 @@
   --contacts-line-divider-color: var(--dot-color);
   --contacts-contact-the-author-color: var(--secondary-text-color);
 
+  --primary-header-background-color: #f3ebd9;
+  --header-text-color: var(--events-secondary-text-color);
+  --header-nav-text-color: var(--events-secondary-text-color);
+  --header-nav-hover-text-color: #c05713;
 }
 
 img {
