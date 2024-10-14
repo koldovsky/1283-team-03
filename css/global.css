@@ -53,6 +53,8 @@
 
   --primary-header-background-color: #f3ebd9;
   --header-text-color: var(--events-secondary-text-color);
+  --header-nav-text-color: var(--events-secondary-text-color);
+  --header-nav-hover-text-color: #c05713;
 }
 
 img {
