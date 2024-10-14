@@ -54,8 +54,9 @@
   
 
   --primary-header-background-color: #f3ebd9;
-  --header-nav-primary-text-color: #565656;
+  --header-text-color: #565656;
   --header-nav-hover-text-color: #c05713;
+  --header-hero-secondary-text-color: var(--secondary-text-color);
 
 }
 

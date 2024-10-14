@@ -7,6 +7,7 @@ header {
         height: 103.1px;
         align-items:center;
         padding: 5px 24px 0px;
+        font-family: var(--primary-font-family);
 
         .header__logo-container {
             width: 119px;
@@ -18,7 +19,7 @@ header {
                 height: 88.1px;
             }
         }
-@media (max-width: 767px){
+@media (max-width: 1000px){
 
     
         .header__menu {
@@ -34,7 +35,7 @@ header {
 
 
 
-@media (min-width: 768px){
+@media (min-width: 1001px){
     .header__menu {
         display: flex;
         list-style-type: none;
