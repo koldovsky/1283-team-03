@@ -34,7 +34,7 @@
   --events-partial-dot-color: var(--secondary-background-color);
   --evets-partial-accent-color: var(--secondary-background-color);
   --events-partial-description-color: var(--secondary-text-color);
-  --events-presentations-background-color: var(--primary-headlines-color);
+  --events-presentations-background: var(--primary-headlines-color);
   --events-presentations-title: var(--secondary-headlines-color);
   --events-presentations-primary-text-color: var(--primary-partial-text-color);
   --events-presentations-dot-color: var(--secondary-headlines-color);
@@ -50,11 +50,10 @@
   --about-author__quotation: var(--primary-text-color);
   --about-author__text-biography: #7b7b7b;
   --about-author__image-typewriter: var(--secondary-text-color);
+  
+  --biography
 
-  --primary-header-background-color: #f3ebd9;
-  --header-text-color: #565656;
-  --header-nav-hover-text-color: #c05713;
-  --header-hero-secondary-text-color: var(--secondary-text-color);
+
 
 }
 
