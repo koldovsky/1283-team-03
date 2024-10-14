@@ -1,0 +1,115 @@
+.events {
+  background-image: url(../img/events/events-background.svg);
+  background-size: cover;
+  background-position: center;
+  min-width: 320px;
+  text-align: center;
+
+  .events__title {
+    font-family: var(--primary-font-family);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--evets-partial-accent-color);
+    margin-top: 90px;
+    letter-spacing: 2.4px;
+  }
+
+  .events__subtitle {
+    font-family: var(--secondary-font-family);
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: var(--primary-text-color);
+    margin: 20px;
+
+    .events__subtitle-dot {
+      color: var(--evets-partial-accent-color);
+    }
+  }
+
+  .events__image {
+    width: 272px;
+    height: 32px;
+    margin: 0 auto;
+  }
+
+  .events__description {
+    font-family: var(--primary-font-family);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--events-secondary-text-color);
+    line-height: 26.6px;
+    margin-top: 20px;
+  }
+
+  .events__list {
+    list-style: none;
+    margin: 20px;
+
+    .events__item {
+      display: flex;
+      flex-direction: column;
+      margin: 50px 0;
+
+      .events__item-details {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+
+        .events__item-image {
+          width: 70px;
+          height: 70px;
+        }
+
+        .events__item-date {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          margin: 0 20px;
+
+          .events__item-date__date {
+            font-family: var(--primary-font-family);
+            font-size: 0.8rem;
+            font-weight: bold;
+            letter-spacing: 2.4px;
+            margin-bottom: 20px;
+          }
+
+          .events__item-date__format {
+            font-family: var(--primary-font-family);
+            font-size: 1rem;
+            font-weight: bold;
+            color: var(--evets-partial-accent-color);
+            margin-bottom: 5px;
+          }
+
+          .events__item-date__hour {
+            font-family: var(--primary-font-family);
+            font-size: 1rem;
+            color: var(--events-partial-description-color);
+          }
+        }
+      }
+
+      .events__item-description {
+        margin-top: 50px;
+        text-align: start;
+        padding: 0 10px;
+
+        .events__item-description__title {
+          font-family: var(--secondary-font-family);
+          font-size: 1.4rem;
+          font-weight: 400;
+        }
+
+        .events__item-description__subtitle {
+          font-family: var(--primary-font-family);
+          font-size: 1.1rem;
+          font-weight: 400;
+          color: var(--events-partial-description-color);
+          margin-top: 50px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}
