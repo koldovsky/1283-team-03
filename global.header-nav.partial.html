@@ -9,10 +9,10 @@
     </a>
   </div>
 
-  <div class="burger_container" onclick="burgerMenu(this)">
-    <div class="bar--1"></div>
-    <div class="bar--2"></div>
-    <div class="bar--3"></div>
+  <div class="header__burger-container" onclick="burgerMenu(this)">
+    <div class="header__burger-bar header__burger-bar--1"></div>
+    <div class="header__burger-bar header__burger-bar--2"></div>
+    <div class="header__burger-bar header__burger-bar--3"></div>
   </div>
 
   <ul class="header__menu" id="menu">
@@ -29,7 +29,7 @@
       <a href="#biography" class="header__menu-link">Biography</a>
     </li>
     <li class="header__menu-item">
-      <a href="#events" class="header__menu-link">Online Reading</a>
+      <a href="#online-events" class="header__menu-link">Online Reading</a>
     </li>
     <li class="header__menu-item">
       <a href="events.html" class="header__menu-link">Events</a>
@@ -99,7 +99,8 @@
 
   <script>
     function burgerMenu(icon) {
-      icon.classList.toggle("change");
+      icon.classList.toggle("change"); // Зміна стану іконки
+      document.getElementById("menu").classList.toggle("header__menu--open"); // Зміна видимості меню
     }
   </script>
 </nav>
