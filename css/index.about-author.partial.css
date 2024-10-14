@@ -22,8 +22,10 @@
 .about-author__image-divider {
   margin-top: 25px;
   display: flex;
+  justify-content: flex-start;
   max-height: 32px;
 }
+
 .about-author__image-description {
   color: var(--about-author__image-description);
   font-family: var(--primary-font-family);
@@ -52,7 +54,7 @@
   margin-top: 20px;
   margin-bottom: 40px;
   min-height: 37px;
-  aspect-ratio: 272 / 37;
+  aspect-ratio: 272 / 37
 }
 
 .about-author__image-sign > img {
@@ -61,11 +63,6 @@
   object-fit: scale-down;
 }
 
-.about-author__image-typewriter > img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
 .about-author__image-typewriter {
   min-height: 209px;
   aspect-ratio: 272 / 209;
