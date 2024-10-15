@@ -54,7 +54,7 @@
   margin-top: 20px;
   margin-bottom: 40px;
   min-height: 37px;
-  aspect-ratio: 272 / 37
+  aspect-ratio: 272 / 37;
 }
 
 .about-author__image-sign > img {
@@ -85,11 +85,25 @@
   .about-author {
     background: url(../img/about-author-backgr.svg);
     background-size: cover;
+    object-fit: scale-down;
   }
 }
 @media (min-width: 768px) {
   .about-author {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 70px 0;
+  }
+}
+@media (min-width: 768px) {
+  .about-author-container1,
+  .about-author-container2 {
+    padding: 0 30px;
+  }
+}
+@media (min-width: 768px) {
+  .about-author__quotation {
+    font-size: 23px;
+    margin: auto;
   }
 }
