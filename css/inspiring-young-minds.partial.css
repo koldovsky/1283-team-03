@@ -1,0 +1,83 @@
+.inspiring-young-minds {
+  /* background-image: url(../img/inspiring-young-minds/inspiring-young-minds-background.svg); */
+  background-size: cover;
+  background-position: center;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+
+  .inspiring-young-minds__content {
+    margin: 90px 0;
+
+    .inspiring-young-minds__container-image {
+      width: 17rem;
+      height: auto;
+
+      .inspiring-young-minds__image {
+        border-radius: 30px;
+      }
+    }
+
+    .inspiring-young-minds__text {
+      .inspiring-young-minds__description {
+        font-family: var(--primary-font-family);
+        font-size: 1rem;
+        color: var(--inspiring-young-minds-text-color);
+        margin: 20px 0;
+        line-height: 25.6px;
+      }
+
+      .inspiring-young-minds__quote {
+        border-left: 1px solid var(--divider-color);
+        padding-left: 20px;
+
+        .inspiring-young-minds__quote-image {
+          width: 50px;
+          height: 50px;
+        }
+
+        .inspiring-young-minds__quote-text {
+          font-family: var(--primary-font-family);
+          font-size: 1.25rem;
+          line-height: 28px;
+          font-style: italic;
+          color: var(--inspiring-young-minds-quote-text);
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .inspiring-young-minds__title {
+        font-family: var(--secondary-font-family);
+        font-size: 1.3rem;
+        font-weight: 400;
+      }
+
+      .inspiring-young-minds__accent {
+        font-family: var(--primary-font-family);
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--inspiring-young-minds-quote);
+      }
+
+      .inspiring-young-minds__description-italic {
+        font-size: 0.9rem;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 25px;
+      }
+    }
+  }
+
+  .inspiring-young-minds__sidebar {
+    flex: 1;
+
+    .inspiring-young-minds__importance-of-diversity {
+      .inspiring-young-minds__importance-of-diversity__image {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
