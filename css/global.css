@@ -62,6 +62,18 @@
   --contacts-contact-the-author-heading-color: var(--primary-text-color);
   --contacts-line-divider-color: var(--dot-color);
   --contacts-contact-the-author-color: var(--secondary-text-color);
+  --contacts-faq-title-color: var(--secondary-background-color);
+  --contacts-faq-questions-color: var(--primary-text-color);
+  --contacts-faq-dot-color: var(--secondary-background-color);
+  --contacts-faq-subtitle-color: var(--subtitle-color);
+  --contacts-faq-accordion-button-color: var(--primary-text-color);
+  --contacts-faq-accordion-body-color: var(--description-color);
+  --contacts-form-bg-color: var(--primary-text-color);
+  --contacts-form-border-color: #7e87341f;
+  --contacts-form-button-bg-color: var(--secondary-background-color);
+  --contacts-form-button-text-color: #fff;
+  --contacts-form-button-bg-hover-color: #fff;
+  --contacts-form-button-text-hover-color: var(--primary-text-color);
 
   --primary-header-background-color: #f3ebd9;
   --header-text-color: var(--events-secondary-text-color);
