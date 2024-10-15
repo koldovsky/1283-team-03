@@ -9,11 +9,9 @@
     </a>
   </div>
 
-  <div class="header__burger-container" onclick="burgerMenu(this)">
-    <div class="header__burger-bar header__burger-bar--1"></div>
-    <div class="header__burger-bar header__burger-bar--2"></div>
-    <div class="header__burger-bar header__burger-bar--3"></div>
-  </div>
+  <a href="#" class="header__menu-btn">
+    <span class="header__navicon"></span>
+  </a>
 
   <ul class="header__menu" id="menu"  data-proofer-ignore>
     <li class="header__menu-item">
@@ -97,10 +95,20 @@
     </li>
   </ul>
 
-  <script>
-    function burgerMenu(icon) {
-      icon.classList.toggle("change"); // Зміна стану іконки
-      document.getElementById("menu").classList.toggle("header__menu--open"); // Зміна видимості меню
-    }
-  </script>
+<script>
+  const body = document.querySelector("body");
+const header = document.querySelector(".header");
+const btnSub = document.querySelector(".header__menu-btn");
+const navLinks = document.querySelector(".header__nav-menu");
+
+btnSub.addEventListener("click", () => {
+    body.classList.toggle("overflow-hidden");
+    header.classList.toggle("nav-visible");
+})
+
+navLinks.addEventListener("click", () => {
+    body.classList.remove("overflow-hidden");
+    header.classList.remove("nav-visible");
+})
+</script>
 </nav>
