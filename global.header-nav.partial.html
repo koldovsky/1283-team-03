@@ -9,9 +9,11 @@
     </a>
   </div>
 
+
   <a href="#" class="header__menu-btn">
     <span class="header__navicon"></span>
   </a>
+  
 
   <ul class="header__menu" id="menu"  data-proofer-ignore>
     <li class="header__menu-item">
@@ -95,20 +97,5 @@
     </li>
   </ul>
 
-<script>
-  const body = document.querySelector("body");
-const header = document.querySelector(".header");
-const btnSub = document.querySelector(".header__menu-btn");
-const navLinks = document.querySelector(".header__nav-menu");
-
-btnSub.addEventListener("click", () => {
-    body.classList.toggle("overflow-hidden");
-    header.classList.toggle("nav-visible");
-})
-
-navLinks.addEventListener("click", () => {
-    body.classList.remove("overflow-hidden");
-    header.classList.remove("nav-visible");
-})
-</script>
+<script src="js/header.js"></script>
 </nav>

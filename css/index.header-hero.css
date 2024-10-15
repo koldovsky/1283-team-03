@@ -48,7 +48,7 @@
     }
 
     .header__hero-discription{
-        color: var(--header-hero-secondary-text-color);
+        color: var(--secondary-text-color);
         display: block;
         font-family: var(--primary-font-family);
         line-height: 25.6px
