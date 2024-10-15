@@ -80,3 +80,10 @@
     color: var(--secondary-text-color); 
     max-width: 100%; 
 }
+
+
+.biography__decorative-branch{
+    display: block;
+    max-width: 273px;
+    margin: auto;
+}
