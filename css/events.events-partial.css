@@ -17,9 +17,9 @@
   .events__subtitle {
     font-family: var(--secondary-font-family);
     font-size: 2.3rem;
-    font-weight: 400;
     color: var(--primary-text-color);
     margin: 25px;
+    line-height: 45.6px;
 
     .events__subtitle-dot {
       color: var(--evets-partial-accent-color);
@@ -50,7 +50,7 @@
     font-weight: 500;
     color: var(--events-secondary-text-color);
     line-height: 26.6px;
-    margin-top: 20px;
+    margin: 25px;
   }
 
   .events__list {
