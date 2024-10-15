@@ -26,7 +26,7 @@
   --secondary-background-color: #c05713;
   --primary-text-category-color: #f3ebd9;
   --category-description-color: #ffffffa3;
-  --title-color: #4f3823; 
+  --title-color: #4f3823;
   --subtitle-color: #565656;
   --description-color: #737373;
   --blog-item-link-color: #ff7f50;
@@ -54,7 +54,7 @@
   --about-author__quotation: var(--primary-text-color);
   --about-author__text-biography: #7b7b7b;
   --about-author__image-typewriter: var(--secondary-text-color);
-  
+
   --contacts-header-title-color: var(--primary-partial-text-color);
   --contacts-header-title-dot-color: var(--dot-color);
   --contacts-header-link-primary-color: #ffffff99;
@@ -67,6 +67,15 @@
   --header-text-color: var(--events-secondary-text-color);
   --header-nav-text-color: var(--events-secondary-text-color);
   --header-nav-hover-text-color: #c05713;
+
+  --inspiring-young-minds-header-background: var(--secondary-background-color);
+  --inspiring-young-minds-header-title: var(--primary-partial-text-color);
+  --inspiring-young-minds-header-breadcrumb: var(--events-breadcrumb-color);
+  --inspiring-young-minds-text-color: var(--secondary-text-color);
+  --inspiring-young-minds-quote: var(--primary-headlines-color);
+  --inspiring-young-minds-quote-text: var(--subtitle-color);
+  --inspiring-young-minds-title-color: var(--primary-text-color);
+  --inspiring-young-minds-read-data: var(--secondary-background-color);
 }
 
 img {
