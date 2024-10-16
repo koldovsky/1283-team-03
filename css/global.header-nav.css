@@ -20,12 +20,10 @@ header {
 }
 
 .header__menu-link {
-  font-size: 16px; /* Можна збільшити розмір шрифту для великих екранів */
-  color: var(--header-text-color); /* Колір посилань */
+  font-size: 16px;
+  color: var(--header-text-color);
   font-weight: 500;
 }
-
-
 
 .header__logo-container {
   width: 119px;
@@ -36,8 +34,6 @@ header {
   width: 119px;
   height: 88.1px;
 }
-
-
 
 @media (max-width: 1023px) {
   .header__menu {
@@ -56,8 +52,6 @@ header {
     gap: 20px;
     z-index: 1;
   }
-
-  
 
   .header__socials {
     gap: 20px;
@@ -165,8 +159,7 @@ header {
 }
 
 @media (min-width: 1024px) {
-
-  .header__nav{
+  .header__nav {
     padding: 10px 40px 5px;
     justify-content: space-between;
   }
@@ -175,24 +168,20 @@ header {
     display: flex;
     max-width: 650px;
     justify-content: flex-start;
-    flex-direction: row; /* Горизонтальне вирівнювання */
+    flex-direction: row;
     align-items: center;
-    gap: 15px; /* Відстань між елементами */
+    gap: 15px;
     height: 103.1px;
     flex-wrap: wrap;
     row-gap: 0;
   }
 
-  .header__menu-link{
+  .header__menu-link {
     font-size: 15px;
-    
   }
 
- 
-
-  /* Забираємо кнопку меню */
   .header__menu-btn {
-    display: none; /* Вимикаємо кнопку */
+    display: none;
   }
 
   .header__socials {
@@ -203,7 +192,6 @@ header {
     justify-content: flex-end;
   }
 
-  /* Соціальні іконки у горизонтальному вигляді */
   .header__socials-item {
     display: flex;
     align-items: center;
