@@ -53,14 +53,11 @@
 .about-author__image-sign {
   margin-top: 20px;
   margin-bottom: 40px;
-  min-height: 37px;
-  aspect-ratio: 272 / 37;
-}
-
-.about-author__image-sign > img {
-  width: 100%;
-  height: 100%;
-  object-fit: scale-down;
+  height: 37px;
+  width: unset;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .about-author__image-typewriter {
