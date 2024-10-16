@@ -113,6 +113,10 @@
     font-size: 47px;
     margin: auto;
   }
+  .about-author__subtitle-dot {
+    font-size: 47px;
+    color: var(--about-author-dot-color);
+  }
   .about-author__quotation {
     font-size: 23px;
     margin: auto;
@@ -138,8 +142,19 @@
     font-size: 56px;
     margin: auto;
   }
+  .about-author__subtitle-dot {
+    font-size: 56px;
+  }
   .about-author__quotation {
     font-size: 26px;
     margin: auto;
+  }
+}
+@media (min-width: 2560px) {
+  .about-author-container1 {
+    margin-left: 680px;
+  }
+  .about-author-container2 {
+    margin-right: 680px;
   }
 }
