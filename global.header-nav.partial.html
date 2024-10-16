@@ -9,13 +9,11 @@
     </a>
   </div>
 
-  <div class="header__burger-container" onclick="burgerMenu(this)">
-    <div class="header__burger-bar header__burger-bar--1"></div>
-    <div class="header__burger-bar header__burger-bar--2"></div>
-    <div class="header__burger-bar header__burger-bar--3"></div>
-  </div>
+  <a href="#" class="header__menu-btn">
+    <span class="header__navicon"></span>
+  </a>
 
-  <ul class="header__menu" id="menu"  data-proofer-ignore>
+  <ul class="header__menu"  data-proofer-ignore>
     <li class="header__menu-item">
       <a href="#about-author" class="header__menu-link">About Author</a>
     </li>
@@ -97,10 +95,5 @@
     </li>
   </ul>
 
-  <script>
-    function burgerMenu(icon) {
-      icon.classList.toggle("change"); // Зміна стану іконки
-      document.getElementById("menu").classList.toggle("header__menu--open"); // Зміна видимості меню
-    }
-  </script>
+  <script src="js/header.js"></script>
 </nav>
