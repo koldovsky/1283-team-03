@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 
   .events__title {
     font-family: var(--primary-font-family);
@@ -136,7 +136,6 @@
 
       .events__item-description {
         text-align: start;
-        margin-top: 50px;
 
         .events__item-description__title {
           font-family: var(--secondary-font-family);
@@ -192,8 +191,10 @@
     }
 
     .events__divider {
-      color: var(--divider-color);
+      margin: 20px 0;
+      border: 0;
       height: 1px;
+      background-color: var(--divider-color);
     }
   }
 }
