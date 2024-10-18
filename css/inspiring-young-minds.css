@@ -2,4 +2,4 @@
 @import "global.header-nav.css";
 @import "inspiring-young-minds.header-hero.css";
 @import "inspiring-young-minds.partial.css";
-/* footer */
+@import "global.footer.css";
