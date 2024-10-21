@@ -76,4 +76,13 @@
 
         
     }
+
+    @media (min-width: 768px){
+        header{
+            display: flex;
+        }
+        .header__hero-subtitle{
+            justify-content: left;
+        }
+    }
 }
