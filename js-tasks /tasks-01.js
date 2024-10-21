@@ -7,7 +7,7 @@ function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
 // https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
 
 function makeNegative(num) {
-  return num > 0 ? -num : num;
+  return -Math.abs(num);
 }
 
 // https://www.codewars.com/kata/563a631f7cbbc236cf0000c2/train/javascript
@@ -19,13 +19,13 @@ function move(position, roll) {
 // https://www.codewars.com/kata/5772da22b89313a4d50012f7/train/javascript
 
 function greet(name, owner) {
-  return name === owner ? "Hello boss" : "Hello guest";
+  return 'Hello ' +  (name === owner ? "boss" : "Hello guest";
 }
 
 // https://www.codewars.com/kata/582cb0224e56e068d800003c/train/javascript
 
 function litres(time) {
-  return time === 0 ? 0 : Math.floor(time * 0.5);
+  return Math.floor(time * 0.5);
 }
 
 // https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
