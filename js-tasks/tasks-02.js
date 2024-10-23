@@ -34,8 +34,8 @@ function min(arr, toReturn) {
 ///////////////https://www.codewars.com/kata/53ee5429ba190077850011d4
 
 function doubleInteger(i) {
-  i *= 2;
-  return i;
+  const result = i * 2;
+  return result;
 }
 
 ////////////////https://www.codewars.com/kata/5545f109004975ea66000086
@@ -71,5 +71,8 @@ function nthEven(n) {
 //////////////https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a
 
 function past(h, m, s) {
-  return (h * 3600 + m * 60 + s) * 1000;
+  const secondsInHour = 3600;
+  const secondsInMinute = 60;
+  const millisecondsInSecond = 1000;
+  return (h * secondsInHour + m * secondsInMinute + s) * millisecondsInSecond;
 }
