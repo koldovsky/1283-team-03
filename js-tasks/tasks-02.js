@@ -34,7 +34,7 @@ function doubleInteger(i) {
   return i;
 }
 
-Is n divisible by x and y?:
+
 ////////////////https://www.codewars.com/kata/5545f109004975ea66000086
 
 function isDivisible(n, x, y) {
@@ -42,7 +42,7 @@ function isDivisible(n, x, y) {
 }
 
 
-Twice as old:
+
 ////////////////https://www.codewars.com/kata/5b853229cfde412a470000d0
 
 function twiceAsOld(dadYearsOld, sonYearsOld) {
@@ -50,7 +50,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 }
 
 
-What's the real floor?:
+
 //////////////https://www.codewars.com/kata/574b3b1599d8f897470018f6
 
 function getRealFloor(n) {
@@ -65,7 +65,7 @@ function getRealFloor(n) {
 }
 
 
-Get Nth Even Number:
+
 ///////////https://www.codewars.com/kata/5933a1f8552bc2750a0000ed
 
 function nthEven(n){
@@ -73,7 +73,7 @@ function nthEven(n){
 }
 
 
-Clock:
+
 //////////////https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a
 
 function past(h, m, s){
