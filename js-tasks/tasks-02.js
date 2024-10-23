@@ -10,6 +10,11 @@ function DNAtoRNA(dna) {
 }
 
 
+function DNAtoRNA(dna) {
+  return dna.replaceAll('T', 'U');
+}
+
+
 3. /////////////////https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
 const min = function(list){
     return Math.min(...list);
