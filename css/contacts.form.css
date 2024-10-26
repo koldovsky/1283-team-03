@@ -56,6 +56,7 @@
   font-family: var(--primary-font-family);
   width: 100%;
   font-weight: 700;
+  color: var(--secondary-text-color);
 }
 
 .contacts-form__form-textarea {
@@ -87,10 +88,6 @@
 
   .contacts-form__container-empty {
     height: 60px;
-  }
-
-  .contacts-form__container {
-    grid-template-columns: 1fr;
   }
 
   .contacts-form__container-subtitle {

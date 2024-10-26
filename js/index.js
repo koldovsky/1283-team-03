@@ -1,5 +1,6 @@
 function init() {
     import("./header.js");
+    import("./index.featured-books-list.js");
   }
   
   const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
