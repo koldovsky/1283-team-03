@@ -1,0 +1,25 @@
+/* for reset all style in all object
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+/* html root , can create variable
+:root {
+    scroll-behavior: smooth;
+}
+*/
+/*for all image
+img {
+    display: block;
+    max-width: 100%;
+*/
+
+.press-coverage {
+    .press-coverage-container {
+
+    }
+}
