@@ -1,4 +1,4 @@
-/* for reset all style in all object
+/* Reset styles for all elements and set a universal box-sizing */
 *,
 *::after,
 *::before {
@@ -6,20 +6,140 @@
     padding: 0;
     box-sizing: border-box;
 }
-*/
-/* html root , can create variable
+
+/* Root settings, including potential variables */
 :root {
     scroll-behavior: smooth;
 }
-*/
-/*for all image
+
+/* Set all images to block display with max width of 100% */
 img {
     display: block;
     max-width: 100%;
-*/
+}
 
+/* Main container for the "Press Coverage" section */
 .press-coverage {
+    /* Container for all content */
     .press-coverage-container {
-
+        
+        /* Header block with text and image */
+        .heading-block {
+            
+            /* Container for text within the header block */
+            .heading-block__text-container {
+                
+                /* Section title */
+                .heading-block__title {
+                    /* Styles for the title can be added here */
+                }
+                
+                /* Container for title's text content */
+                .heading-block__text-content {
+                    
+                    /* Main text of the title */
+                    .heading-block__text {
+                        /* Styles for the main title text */
+                    }
+                    
+                    /* Decorative dot after the title */
+                    .heading-block__point {                        
+                        /* Additional styles for the dot */
+                    }
+                }
+            }
+            
+            /* Image within the header block */
+            .heading-block__image {                
+                /* Styles for the image, e.g., size and margins */
+            }
+        }
+        
+        /* Block with publication information */
+        .top-text-block {
+            
+            /* Container for text blocks */
+            .top-text-block__text-container {
+                
+                /* Content of each text block */
+                .top-text-block__text-content {
+                    
+                    /* Article title */
+                    .top-text-block__title-text {                        
+                        /* Styles for the article title */
+                    }
+                    
+                    /* Line of text with additional information */
+                    .top-text-block__text-string {
+                        
+                        /* Larger text within the line */
+                        .top-text-block__bigger-text {                            
+                            /* Styles for the highlighted text */
+                        }                        
+                    }
+                }
+            }            
+        }
+        
+        /* Main content block */
+        .main-block {
+            
+            /* Container for individual articles */
+            .main-block__items {
+                
+                /* Container for each article's text */
+                .main-block__text-container {
+                    
+                    /* Article title */
+                    .main-block__title {
+                        /* Styles for the article title */
+                    }
+                    
+                    /* Container for lines with information */
+                    .main-block__text-strings {
+                        
+                        /* Individual line with information */
+                        .main-block__text-string {
+                            
+                            /* Larger text within each line */
+                            .main-block__bigger-text {                                
+                                /* Styles for the emphasized text */
+                            }
+                        }
+                    }
+                    
+                    /* Text annotation for the article */
+                    .main-block__text-annotation {                        
+                        /* Styles for the annotation */
+                    }
+                }
+            }
+            
+            /* Block for buttons */
+            .main-block__btn-grp {
+                
+                /* Link styled as a button */
+                .main-block__link-button {
+                    
+                    /* Inner button element */
+                    .main-block__button {                        
+                        /* Styles for the button itself */
+                    }                    
+                }
+            }
+            
+            /* Group of images */
+            .main-block__image-grp {
+                
+                /* Picture element */
+                .main-block__picture {
+                    
+                    /* Image within the picture element */
+                    .main-block__image {                        
+                        /* Styles for the image */
+                    }
+                }
+            }
+        }
     }
 }
