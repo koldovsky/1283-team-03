@@ -1,6 +1,5 @@
 function init() {
-  import("./header.js");
-  import("./index.featured-books-list.js");
+  //   import("./header.js");
   import("./events.events-partial-list.js");
 }
 

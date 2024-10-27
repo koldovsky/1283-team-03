@@ -1,6 +1,6 @@
 .events__presentation {
   background-color: var(--events-presentations-background);
-  padding: 0 20px;
+  padding: 70px 0 110px;
 
   .presentation__title {
     font-family: var(--primary-font-family);
@@ -157,4 +157,8 @@
       }
     }
   }
+}
+
+.presentation__wave-divider {
+  background-color: var(--events-presentations-background);
 }
