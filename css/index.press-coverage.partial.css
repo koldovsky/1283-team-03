@@ -1,30 +1,12 @@
-/* Reset styles for all elements and set a universal box-sizing */
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Root settings, including potential variables */
-:root {
-    scroll-behavior: smooth;
-}
-
-/* Set all images to block display with max width of 100% */
-img {
-    display: block;
-    max-width: 100%;
-}
-
 /* Main container for the "Press Coverage" section */
 .press-coverage {
     /* Container for all content */
     .press-coverage-container {
+        background-color: gray;
         
         /* Header block with text and image */
         .heading-block {
+            display: block;
             
             /* Container for text within the header block */
             .heading-block__text-container {
@@ -32,14 +14,17 @@ img {
                 /* Section title */
                 .heading-block__title {
                     /* Styles for the title can be added here */
+                    display: block;
                 }
                 
                 /* Container for title's text content */
                 .heading-block__text-content {
+                    display: block;
                     
                     /* Main text of the title */
                     .heading-block__text {
                         /* Styles for the main title text */
+                        
                     }
                     
                     /* Decorative dot after the title */
@@ -52,6 +37,7 @@ img {
             /* Image within the header block */
             .heading-block__image {                
                 /* Styles for the image, e.g., size and margins */
+                display: block;
             }
         }
         
@@ -67,10 +53,12 @@ img {
                     /* Article title */
                     .top-text-block__title-text {                        
                         /* Styles for the article title */
+                        display: block;
                     }
                     
                     /* Line of text with additional information */
                     .top-text-block__text-string {
+                        display: block;
                         
                         /* Larger text within the line */
                         .top-text-block__bigger-text {                            
@@ -86,6 +74,7 @@ img {
             
             /* Container for individual articles */
             .main-block__items {
+                display: block;
                 
                 /* Container for each article's text */
                 .main-block__text-container {
@@ -93,6 +82,7 @@ img {
                     /* Article title */
                     .main-block__title {
                         /* Styles for the article title */
+                        display: block;
                     }
                     
                     /* Container for lines with information */
@@ -100,6 +90,7 @@ img {
                         
                         /* Individual line with information */
                         .main-block__text-string {
+                            display: block;
                             
                             /* Larger text within each line */
                             .main-block__bigger-text {                                
@@ -111,12 +102,14 @@ img {
                     /* Text annotation for the article */
                     .main-block__text-annotation {                        
                         /* Styles for the annotation */
+                        display: block;
                     }
                 }
             }
             
             /* Block for buttons */
             .main-block__btn-grp {
+                display: block;
                 
                 /* Link styled as a button */
                 .main-block__link-button {
@@ -130,6 +123,7 @@ img {
             
             /* Group of images */
             .main-block__image-grp {
+                display: block;
                 
                 /* Picture element */
                 .main-block__picture {
