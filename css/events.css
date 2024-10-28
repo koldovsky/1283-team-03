@@ -3,4 +3,4 @@
 @import "events.header-hero.css";
 @import "events.events-partial.css";
 @import "events.presentations.css";
-/* footer */
+@import "global.footer.css";

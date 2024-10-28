@@ -88,6 +88,14 @@
   --inspiring-young-minds-quote-text: var(--subtitle-color);
   --inspiring-young-minds-title-color: var(--primary-text-color);
   --inspiring-young-minds-read-data: var(--secondary-background-color);
+
+  --footer-background-color: var(--primary-text-color);
+  --footer-title-color: var(--primary-partial-text-color);
+  --footer-primary-text-color: var(--primary-text-category-color);
+  --footer-secondary-text-color: #a6a6a6;
+  --footer-paragraph-color: #d7d7d7;
+  --footer-social-icon-color: var(--secondary-background-color);
+  --footer-divider-color: #4d4d4d;
 }
 
 img {

@@ -15,6 +15,11 @@
     color: var(--inspiring-young-minds-header-title);
     padding: 0 20px;
 
+    @media (min-width: 768px) {
+      font-size: 3rem;
+      line-height: 67px;
+    }
+
     @media (min-width: 1110px) {
       font-size: 3.5rem;
       line-height: 67px;
