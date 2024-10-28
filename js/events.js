@@ -1,6 +1,7 @@
 function init() {
-  //   import("./header.js");
-  import("./events.events-partial-list.js");
+  import("./header.js");
+  // import("./events.events-partial-list.js");
+  import("./events.presentation-partial-list.js");
 }
 
 const totalPartials = document.querySelectorAll(

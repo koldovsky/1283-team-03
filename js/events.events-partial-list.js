@@ -1,7 +1,8 @@
 const events = [
   {
     id: "1",
-    img: "./img/events/events__dreamland-explorers.webp",
+    img: "img/events/events__dreamland-explorers.webp",
+    alt: "Virtual Book Reading",
     date: "01 July 2024",
     format: "Online",
     hour: "10:30 - 14:00",
@@ -11,7 +12,8 @@ const events = [
   },
   {
     id: "2",
-    img: "./img/events/events__author-session.webp",
+    img: "img/events/events__author-session.webp",
+    alt: "Author Q&A Session",
     date: "15 July 2024",
     format: "Online",
     hour: "16:30 - 19:00",
@@ -21,7 +23,8 @@ const events = [
   },
   {
     id: "3",
-    img: "./img/events/events__storytelling.webp",
+    img: "img/events/events__storytelling.webp",
+    alt: "Storytelling Workshop",
     date: "02 Aug 2024",
     format: "Online",
     hour: "12:30 - 18:00",
@@ -31,7 +34,8 @@ const events = [
   },
   {
     id: "4",
-    img: "./img/events/events__forest-adventures.webp",
+    img: "img/events/events__forest-adventures.webp",
+    alt: "Virtual Book Reading",
     date: "12 Sep 2024",
     format: "Online",
     hour: "10:30 - 14:00",
@@ -50,7 +54,7 @@ function renderEvents(events) {
           <img
             class="events__item-image"
             src="${event.img}"
-            alt="Virtual Book Reading"
+            alt="${event.alt}"
           />
           <div class="events__item-date">
             <p class="events__item-date__date">${event.date}</p>
@@ -64,6 +68,7 @@ function renderEvents(events) {
         </div>
       </li>`;
   }
+  console.log(eventsHtml);
   document.querySelector(".events__list").innerHTML = eventsHtml;
 }
 
