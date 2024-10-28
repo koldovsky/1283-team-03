@@ -14,22 +14,30 @@
                 /* Section title */
                 .heading-block__title {
                     /* Styles for the title can be added here */
+                    color: var(--secondary-headlines-color);
+                    font-size: 12px;
+                    font-family: "DM Sans", sans-serif;
                     display: block;
                 }
                 
                 /* Container for title's text content */
                 .heading-block__text-content {
+                    font-size: 38px;
+                    font-family: "Della Respira", serif;
                     display: block;
                     
                     /* Main text of the title */
                     .heading-block__text {
                         /* Styles for the main title text */
-                        
+                        color: var(--primary-partial-text-color);
+                                                
                     }
                     
                     /* Decorative dot after the title */
                     .heading-block__point {                        
                         /* Additional styles for the dot */
+                        color: var(--secondary-headlines-color);
+
                     }
                 }
             }
@@ -53,16 +61,23 @@
                     /* Article title */
                     .top-text-block__title-text {                        
                         /* Styles for the article title */
+                        color: var(--primary-partial-text-color);
+                        font-size: 16px;
+                        font-family: "DM Sans", sans-serif;
                         display: block;
                     }
                     
                     /* Line of text with additional information */
                     .top-text-block__text-string {
+                        color: var(--secondary-partial-text-color);
+                        font-size: 14px;
+                        font-family: "DM Sans", sans-serif;
                         display: block;
                         
                         /* Larger text within the line */
                         .top-text-block__bigger-text {                            
                             /* Styles for the highlighted text */
+                            font-weight: bold;
                         }                        
                     }
                 }
@@ -82,6 +97,9 @@
                     /* Article title */
                     .main-block__title {
                         /* Styles for the article title */
+                        color: var(--primary-partial-text-color);
+                        font-size: 22px;
+                        font-family: "Della Respira", serif;
                         display: block;
                     }
                     
@@ -90,11 +108,15 @@
                         
                         /* Individual line with information */
                         .main-block__text-string {
+                            color: var(--secondary-partial-text-color);
+                            font-size: 14px;
+                            font-family: "DM Sans", sans-serif;
                             display: block;
                             
                             /* Larger text within each line */
                             .main-block__bigger-text {                                
                                 /* Styles for the emphasized text */
+                                font-weight: bold;
                             }
                         }
                     }
@@ -102,6 +124,9 @@
                     /* Text annotation for the article */
                     .main-block__text-annotation {                        
                         /* Styles for the annotation */
+                        color: var(--category-description-color);
+                        font-size: 16px;
+                        font-family: "DM Sans", sans-serif;
                         display: block;
                     }
                 }
@@ -117,6 +142,9 @@
                     /* Inner button element */
                     .main-block__button {                        
                         /* Styles for the button itself */
+                        color: var(--primary-partial-text-color);
+                        font-size: 15.4px;
+                        font-family: "DM Sans", sans-serif;
                     }                    
                 }
             }
