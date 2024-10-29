@@ -42,8 +42,6 @@
     width:385px;
     max-width: 100%;
     height:auto;
-    line-height: 25.6px;
-    border-radius: 8px;
     transition: transform 0.3s ease; 
 }
 .book-promo__title {
