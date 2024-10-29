@@ -43,9 +43,6 @@
     max-width: 100%;
     height:auto;
     line-height: 25.6px;
-    margin-bottom: 25px;
-    padding-left:60px;
-    margin-left: -20px;
     border-radius: 8px;
     transition: transform 0.3s ease; 
 }
