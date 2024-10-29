@@ -18,6 +18,7 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     height:100vh;
     gap:55px;
+    z-index:2;
 }
 
 #book-promo::before {
