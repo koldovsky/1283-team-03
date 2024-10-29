@@ -20,7 +20,7 @@
     gap:55px;
 }
 
-#book-promo__background::before {
+#book-promo::before {
     content: "";
     position: absolute;
     top: 0;
