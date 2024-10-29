@@ -34,10 +34,9 @@
     clip-path: inset(0px);
     z-index: -1; 
     overflow: hidden; 
-    --fixed-background-size: cover; 
-    --fixed-background-color: #212121; 
-    --fixed-transform: none; 
-    --fixed-filter: undefined;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-color: #212121; 
 }
 .book-promo__book-cover {
     background-image: url('../img/book-promo.webp');
