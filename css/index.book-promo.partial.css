@@ -39,17 +39,11 @@
 }
 .book-promo__book-cover {
     background-image: url('../img/book-promo.webp');
-    width:385px;
-    max-width: 100%;
+    width:100%;
     height:auto;
-    line-height: 25.6px;
-    margin-bottom: 25px;
-    padding-left:60px;
-    margin-left: -20px;
-    border-radius: 8px; 
     transition: transform 0.3s ease;
-    flex: 1;
-    display: flex;
+    display:block;
+    object-fit: cover;
     justify-content: center; 
     align-items: center; 
 }
