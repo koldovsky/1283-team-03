@@ -70,6 +70,10 @@
     margin-bottom: 20px;
     font-family: "Della Respira", serif;
 }
+.book-promo__subtitle-dot {
+    font-size: 47px;
+    color: rgb(254, 174, 28);
+  }
 .book-promo__description {
     font-size: 19px;
     color: #ffffffd9;
