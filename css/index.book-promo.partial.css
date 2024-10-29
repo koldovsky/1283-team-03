@@ -40,6 +40,7 @@
 .book-promo__book-cover {
     background-image: url('../img/book-promo.webp');
     width:385px;
+    background-size: cover;
 }
 .book-promo__title {
     font-weight: 700;
