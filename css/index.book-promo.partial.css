@@ -27,16 +27,16 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../img/book-promo-background.webp')
+    height:auto;
+    width:100%;
+    background-image: url('../img/book-promo-background.webp');
+    background-size:cover;
     background-position: center;
-    opacity:0.5; 
-    z-index:-1;
-    clip-path: inset(0px);
-    z-index: -1; 
-    overflow: hidden; 
     background-attachment: fixed;
-    background-size: cover; 
-    background-color: #212121; 
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity:0.5;
+    z-index:-1;
+    overflow: hidden; 
 }
 .book-promo__book-cover {
     background-image: url('../img/book-promo.webp');
