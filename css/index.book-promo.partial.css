@@ -47,11 +47,7 @@
     padding-left:60px;
     margin-left: -20px;
     border-radius: 8px;
-    transition: transform 0.3s ease;
-    display:flex;
-    object-fit: cover;
-    justify-content: center; 
-    align-items: center; 
+    transition: transform 0.3s ease; 
 }
 .book-promo__title {
     font-weight: 700;
