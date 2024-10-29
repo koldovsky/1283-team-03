@@ -62,15 +62,16 @@
       display: flex;
       flex-direction: column;
       margin: 50px 0;
+      flex-wrap: wrap;
 
       .events__item-details {
         text-align: center;
         display: flex;
-        flex-direction: row;
 
         .events__item-image {
           width: 70px;
           height: 70px;
+          border-radius: 50%;
         }
 
         @media (min-width: 768px) {
@@ -136,6 +137,7 @@
 
       .events__item-description {
         text-align: start;
+        padding-top: 50px;
 
         .events__item-description__title {
           font-family: var(--secondary-font-family);

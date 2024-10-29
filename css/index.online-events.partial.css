@@ -1,3 +1,35 @@
-.onlnie-events__head-container{
-text-align: center;
-}
+.online-events__head-container{
+    text-align: center;
+    }
+    
+    .online-events__headline {
+        color: var(--secondary-headlines-color);
+        font-family: var(--primary-font-family);
+        font-size: 12px;
+        letter-spacing: 2.4px;
+    }
+    
+    .online-events__subtitle {
+        color: #FFFFFF;
+        font-family: var(--secondary-font-family);
+        font-size: 56px;
+    }
+    
+    .online-events__subtitle-dot {
+        color:var(--secondary-headlines-color);
+        font-family: var(--secondary-font-family);
+        font-size: 56px;
+    }
+    
+    .online-events__image--branch {
+        display: block;
+        max-width: 272px;
+        margin: auto;
+    }
+    
+    .online-events_content {
+        color:#d1d1d1;
+        font-family: var( --primary-font-family);
+        font-size: 19px;
+    }
+    

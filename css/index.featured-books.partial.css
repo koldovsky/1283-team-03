@@ -90,25 +90,11 @@
         margin-bottom: 35px;
     }
 
-    .featured-book__link-item{
-        position: relative;
-
-        .fa-solid {
-            position: absolute;
-            top: 3px;
-            left: 105px;
-            width: 24px;
-            height: 24px;
-        }
-    }
-
     .featured-book__link {
         color: var(--primary-partial-text-color);
         font-family: var(--primary-font-family);
         text-decoration: none;
         font-size: 14px;
-        padding: 0 32px 0 0;
-
     }
 
     .featured-book__link:hover{
@@ -116,7 +102,6 @@
     }
 
 }
-
 
 @media(max-width: 425px) {
     .featured-books {
@@ -129,9 +114,6 @@
 
     .featured-books__list {
         text-align: center;
-    }
-
-    .featured-books__list{
         grid-template-columns: 1fr;
     }
 
@@ -140,12 +122,8 @@
         margin: 0 auto;
     }
 
-    .fa-solid::before {
-        position: absolute;
-        top: -90px;
-        left: 87px;
-        width: 24px;
-        height: 24px;
+    .featured-book__link{
+        padding-right: 0;
     }
 }
 
@@ -175,6 +153,7 @@
     .featured-book__image-container {
         margin-top: 50px;
     }
+
 }
 
 @media(min-width: 1440px) {
