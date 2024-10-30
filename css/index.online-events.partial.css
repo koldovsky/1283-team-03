@@ -1,112 +1,79 @@
 .online-events {
-  background-image: url("img/dinousar-events.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(../img/dinosaur-events.png);
+  
 }
-
-.online-events__head-container {
+.online-events__head-container{
   text-align: center;
-}
-.online-events__headline {
-  color: var(--secondary-headlines-color);
-  font-family: var(--primary-font-family);
-  font-size: 12px;
-  letter-spacing: 2.4px;
-}
-.online-events__subtitle {
-  color: #ffffff;
-  font-family: var(--secondary-font-family);
-  font-size: 56px;
-}
-.online-events__subtitle-dot {
-  color: var(--secondary-headlines-color);
-  font-family: var(--secondary-font-family);
-  font-size: 56px;
-}
-.online-events__image--branch {
-  display: block;
-  max-width: 272px;
-  margin: auto;
-}
-.online-events_content {
-  color: #d1d1d1;
-  font-family: var(--primary-font-family);
-  font-size: 19px;
+  }
+  .online-events__headline {
+      color: var(--secondary-headlines-color);
+      font-family: var(--primary-font-family);
+      font-size: 12px;
+      letter-spacing: 2.4px;
+  }
+  .online-events__subtitle {
+      color: #FFFFFF;
+      font-family: var(--secondary-font-family);
+      font-size: 56px;
+  }
+  .online-events__subtitle-dot {
+      color:var(--secondary-headlines-color);
+      font-family: var(--secondary-font-family);
+      font-size: 56px;
+  }
+  .online-events__image--branch {
+      display: block;
+      max-width: 272px;
+      margin: auto;
+  }
+  .online-events_content {
+      color:#d1d1d1;
+      font-family: var( --primary-font-family);
+      font-size: 19px;
+  }
+  
+  .online-events__list {
+
+  }
+
+.online-events__item {
+   
 }
 
-.online-events__list {
-  padding: 2rem;
-  color: #fff;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.online-events__items {
-  display: flex;
-  align-items: center;
-  padding: 1.5rem 0;
-  max-width: 1170px;
-  height: 170px;
+.online-events__item-details {
+   
 }
 
 .online-events__item-image {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  margin-right: 1.5rem;
-  object-fit: cover;
-  border: 2px solid #e0a96d; /* Рамка кольору для зображення */
-}
-.online-events__details {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
 }
 
 .online-events__item-info {
-  display: flex;
-  width: 135px;
-  height: 120px;
-  margin: 7px;
+   
 }
 
-.online-events__item-date {
-  font-family: var(--primary-font-family);
-  font-size: 0.8rem;
-  font-weight: bold;
-  letter-spacing: 2.4px;
-  margin-bottom: 20px;
+.online-events__item-info__date {
+    
 }
 
-.online-events__item-status {
-  font-family: var(--primary-font-family);
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--evets-partial-accent-color);
-  margin-bottom: 5px;
+.online-events__item-info__status {
+    
 }
-.online-events__item-time {
-  font-family: var(--primary-font-family);
-  font-size: 1rem;
-  color: var(--events-partial-description-color);
+
+.online-events__item-info__hour {
+    
+
+.online-events__item-description {
+  
+  
 }
 
 .online-events__item-description__title {
-  font-family: var(--secondary-font-family);
-  font-size: 24px;
-  font-weight: 400;
-}
-.online-events__item-description {
-  text-align: start;
-  padding-top: 50px;
+  
 }
 
-.onlnie-events__item-description__subtitle {
-  font-family: var(--primary-font-family);
-  font-size: 16px;
-  font-weight: 400;
-  color: var(--events-partial-description-color);
-  line-height: 25px;
-  margin-top: 50px;
+.online-events__item-description__subtitle {
+  
 }
