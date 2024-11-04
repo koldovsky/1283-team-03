@@ -217,6 +217,13 @@
       height: auto;
       box-sizing: border-box;
     }
+    .book-promo__promo-text {
+      width: 100%; /* Ширина текстового контейнера */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
     .book-promo__title {
       font-size: 16px;
       letter-spacing: 1.2px;
