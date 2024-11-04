@@ -76,6 +76,7 @@
     color: var(--primary-partial-text-color); 
     margin-bottom: -5px;
     font-family: "Della Respira", serif;
+    line-height:1.6px;
 }
 .book-promo__subtitle-dot {
     font-size: 47px;
