@@ -49,7 +49,7 @@
 }
 .book-promo__book-cover {
     background-image: url('../img/book-promo.webp');
-    width:500px;
+    width:475px;
     background-size: cover;
 }
 .book-promo__promo-text {
@@ -74,7 +74,7 @@
 .book-promo__subtitle {
     font-size: 52px;
     color: var(--primary-partial-text-color); 
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     font-family: "Della Respira", serif;
 }
 .book-promo__subtitle-dot {
