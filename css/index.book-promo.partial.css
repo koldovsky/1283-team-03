@@ -49,7 +49,7 @@
 }
 .book-promo__book-cover {
     background-image: url('../img/book-promo.webp');
-    width:385px;
+    width:400px;
     background-size: cover;
 }
 .book-promo__promo-text {
