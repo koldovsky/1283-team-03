@@ -37,6 +37,11 @@
     z-index:-2;
     overflow: hidden; 
 }
+@media (max-width: 768px) {
+    #book-promo::before {
+       background-attachment: scroll;
+    }
+}
 #book-promo::after {
     content: "";
     position: absolute;
