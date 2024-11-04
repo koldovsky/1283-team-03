@@ -55,7 +55,7 @@
   --about-author__text-biography: #7b7b7b;
   --about-author__image-typewriter: var(--secondary-text-color);
 
-  --book-promo-title: var(--secondary-background-color);
+  --book-promo-title: var(--secondary-headlines-color);
   --book-promo-subtitle: var(--primary-partial-text-color);
   --book-promo-subtitle-dot-color: var(--dot-color);
   --book-promo__description: var(--primary-partial-text-color);

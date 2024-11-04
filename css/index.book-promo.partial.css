@@ -63,19 +63,19 @@
     }
 .book-promo__title {
     font-weight: 700;
-    color: var(--secondary-background-color); 
+    color: var(--secondary-headlines-color); 
     margin-bottom: 10px;
     letter-spacing:2.4px;
     line-height:16.8px;
     font-size: 12px;
     text-transform: lowercase;
-    --primary-font-family: "DM Sans", sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 .book-promo__subtitle {
     font-size: 38px;
     color: var(--primary-partial-text-color); 
     margin-bottom: -5px;
-    --secondary-font-family: "Della Respira", serif;
+    font-family: "Della Respira", serif;
 }
 .book-promo__subtitle-dot {
     font-size: 47px;
@@ -86,7 +86,7 @@
     color: var(--primary-partial-text-color);
     margin-bottom: 30px;
     line-height: 1.6;
-    --primary-font-family:"DM Sans", sans-serif;
+    font-family:"DM Sans", sans-serif;
 }
 .book-promo__button {
     display: inline-block;
@@ -99,7 +99,7 @@
     border-radius:25px;
     margin:10px;
     transition: background-color 0.5s ease, transform 0.5s ease;
-    --secondary-font-family: "Della Respira", serif;
+    font-family: "Della Respira", serif;
 }
 .book-promo__button:hover {
     background-color: #ffffff;
