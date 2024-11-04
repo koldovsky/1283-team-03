@@ -85,7 +85,7 @@
     font-size: 19px;
     color: var(--primary-partial-text-color);
     margin-bottom: 30px;
-    line-height: 1.6px;
+    line-height: 4px;
     font-family:"DM Sans", sans-serif;
 }
 .book-promo__button {
