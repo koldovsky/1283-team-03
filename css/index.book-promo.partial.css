@@ -51,10 +51,12 @@
     background-image: url('../img/book-promo.webp');
     width:475px;
     background-size: cover;
+    margin-right: -10px;
 }
 .book-promo__promo-text {
     display: flex;
     margin-top:-20px;
+    margin-left:-10px;
     flex-direction: column;
     justify-content: center;
         align-items: flex-end;
