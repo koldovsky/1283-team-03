@@ -122,6 +122,7 @@
     display: grid;
     gap: 5px;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -131,12 +132,13 @@
     }
 
     /* Розташування елементів: текст піде після картинки */
-    .book-promo__book-cover-container {
+    .book-promo__book-cover {
         grid-row: 1; /* Картинка буде в першому рядку */
     }
 
-    .book-promo__promo-text-container {
+    .book-promo__promo-text {
         grid-row: 2; /* Текст буде в другому рядку */
         text-align: center; /* Вирівнювання тексту по центру */
+        margin-top: 20px;
     }
 }
