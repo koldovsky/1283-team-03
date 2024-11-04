@@ -52,7 +52,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     z-index: -1;
 }
-.book-promo__image-container {
+.book-promo__book-cover {
     background-image: url('../img/book-promo.webp');
     width:475px;
     background-size: cover;
@@ -113,70 +113,6 @@
     background-color: #ffffff;
     color:black;
     }
-
-
-
-
-    /*
-    @media (min-width: 768px) {
-        #book-promo {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          padding: 70px 0;
-        }
-      }
-        .book-promo__book-cover-container,
-        .book-promo__promo-text-container {
-          padding: 0 30px;
-        }
-    
-        .book-promo__subtitle {
-          font-size: 47px;
-          margin: auto;
-        }
-        .book-promo__subtitle-dot {
-          font-size: 47px;
-          color: var(--about-author-dot-color);
-        }
-        .book-promo__description{
-          font-size: 23px;
-          margin: auto;
-        }
-      
-      @media (min-width: 1440px) {
-        #book-promo {
-          background: url('../img/book-promo-background.webp');
-          background-size: cover;
-        }
-      }
-
-        .book-promo__book-cover-container {
-          margin-left: 120px;
-        }
-        .book-promo__promo-text-container {
-          margin-right: 120px;
-        }
-      
-        .book-promo__subtitle {
-          font-size: 56px;
-          margin: auto;
-        }
-        .book-promo__subtitle-dot {
-          font-size: 56px;
-        }
-        .book-promo__description {
-          font-size: 26px;
-          margin: auto;
-        }
-
-      @media (min-width: 2560px) {
-        .book-promo__book-cover-container {
-          margin-left: 680px;
-        }
-        .book-promo__promo-text-container {
-          margin-right: 680px;
-        }
-      } */
 
 
 
