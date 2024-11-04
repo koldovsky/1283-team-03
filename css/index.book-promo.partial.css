@@ -189,6 +189,7 @@
 
 /* Стилі для мобільних пристроїв (до 768px) */
 
+/* Стилі для мобільних пристроїв (до 768px) */
 @media (max-width: 768px) {
     #book-promo {
       display: flex;
@@ -210,7 +211,8 @@
       box-sizing: border-box;
     }
     .book-promo__book-cover {
-      width: 80%; /* Зменшуємо ширину */
+      width: 100%; /* Встановлюємо ширину на 100% */
+      max-width: 300px; /* Максимальна ширина, щоб не було занадто великою */
       height: auto;
       box-sizing: border-box;
     }
@@ -234,9 +236,8 @@
       text-align: center;
     }
   }
-
 /* Стилі для планшетів (768px до 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   #book-promo {
     display: flex;
     flex-direction: row;
