@@ -207,3 +207,61 @@
           padding: 10px 20px;
         }
       }
+
+      
+@media (min-width: 768px) and (max-width: 1024px) {
+    #book-promo {
+      flex-direction: row;
+      padding: 30px;
+      height: auto;
+      gap: 30px;
+    }
+    .book-promo__book-cover {
+      width: 50%;
+      height: auto;
+    }
+    .book-promo__title {
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      line-height: 24px;
+    }
+    .book-promo__subtitle {
+      font-size: 32px;
+    }
+    .book-promo__description {
+      font-size: 18px;
+    }
+    .book-promo__button {
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+  }
+  
+  /* Стилі для десктопів (від 1024px) */
+  @media (min-width: 1024px) {
+    #book-promo {
+      flex-direction: row;
+      padding: 40px;
+      height: auto;
+      gap: 40px;
+    }
+    .book-promo__book-cover {
+      width: 40%;
+      height: auto;
+    }
+    .book-promo__title {
+      font-size: 24px;
+      letter-spacing: 2px;
+      line-height: 28px;
+    }
+    .book-promo__subtitle {
+      font-size: 36px;
+    }
+    .book-promo__description {
+      font-size: 20px;
+    }
+    .book-promo__button {
+      font-size: 18px;
+      padding: 14px 28px;
+    }
+  }
