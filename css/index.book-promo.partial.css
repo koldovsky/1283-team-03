@@ -64,7 +64,7 @@
 .book-promo__title {
     font-weight: 700;
     color: #feae1c; 
-    margin-bottom: -10px;
+    margin-bottom: -5px;
     letter-spacing:2.4px;
     line-height:16.8px;
     font-size: 12px;
@@ -74,7 +74,7 @@
 .book-promo__subtitle {
     font-size: 38px;
     color: #ffffff; 
-    margin-bottom: -10px;
+    margin-bottom: -5px;
     font-family: "Della Respira", serif;
 }
 .book-promo__subtitle-dot {
@@ -97,7 +97,7 @@
     font-weight:bold;
     font-size:15.4px;
     border-radius:25px;
-    margin:-10px;
+    margin:-5px;
     transition: background-color 0.5s ease, transform 0.5s ease;
     font-family: "Della Respira", serif;
 }
