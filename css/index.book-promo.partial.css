@@ -237,31 +237,4 @@
     }
   }
   
-  /* Стилі для десктопів (від 1024px) */
-  @media (min-width: 1024px) {
-    #book-promo {
-      flex-direction: row;
-      padding: 40px;
-      height: auto;
-      gap: 40px;
-    }
-    .book-promo__book-cover {
-      width: 40%;
-      height: auto;
-    }
-    .book-promo__title {
-      font-size: 24px;
-      letter-spacing: 2px;
-      line-height: 28px;
-    }
-    .book-promo__subtitle {
-      font-size: 36px;
-    }
-    .book-promo__description {
-      font-size: 20px;
-    }
-    .book-promo__button {
-      font-size: 18px;
-      padding: 14px 28px;
-    }
-  }
+  
