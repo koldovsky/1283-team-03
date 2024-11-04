@@ -52,7 +52,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     z-index: -1;
 }
-.book-promo__book-cover {
+.book-promo__image-container {
     background-image: url('../img/book-promo.webp');
     width:475px;
     background-size: cover;
