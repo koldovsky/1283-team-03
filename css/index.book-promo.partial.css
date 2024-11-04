@@ -73,6 +73,7 @@
 }
 .book-promo__subtitle {
     font-size: 50px;
+    font-weight: bold;
     color: var(--primary-partial-text-color); 
     margin-bottom: 15px;
     font-family: "Della Respira", serif;
@@ -99,7 +100,7 @@
     border-radius:25px;
     margin:10px;
     transition: background-color 0.5s ease, transform 0.5s ease;
-    font-family: "Della Respira", serif;
+    font-family: "DM Sans", sans-serif;
 }
 .book-promo__button:hover {
     background-color: #ffffff;
