@@ -67,12 +67,12 @@
     margin-bottom: 10px;
     letter-spacing:2.4px;
     line-height:16.8px;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: lowercase;
     font-family: "DM Sans", sans-serif;
 }
 .book-promo__subtitle {
-    font-size: 38px;
+    font-size: 45px;
     color: var(--primary-partial-text-color); 
     margin-bottom: -5px;
     font-family: "Della Respira", serif;
