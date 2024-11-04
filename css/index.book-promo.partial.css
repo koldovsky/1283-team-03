@@ -121,38 +121,22 @@
 .book-promo {
     display: grid;
     gap: 5px;
+    grid-template-columns: 1fr 1fr;
 }
 
-/* Media query для мобільних пристроїв (менше 600px) */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .book-promo {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Одна колонка */
+        grid-template-rows: auto auto; /* Дві рядки */
     }
 
-    .book-promo__image-container {
-        grid-column: 1;
-        grid-row: 1;
+    /* Розташування елементів: текст піде після картинки */
+    .book-promo__book-cover-container {
+        grid-row: 1; /* Картинка буде в першому рядку */
     }
 
-    .book-promo__promo-text {
-        grid-column: 1;
-        grid-row: 2;
-    }
-}
-
-/* Media query для більших екранів (від 600px) */
-@media (min-width: 600px) {
-    .book-promo {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .book-promo__image-container {
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .book-promo__promo-text {
-        grid-column: 2;
-        grid-row: 1;
+    .book-promo__promo-text-container {
+        grid-row: 2; /* Текст буде в другому рядку */
+        text-align: center; /* Вирівнювання тексту по центру */
     }
 }
