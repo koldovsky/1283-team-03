@@ -52,10 +52,19 @@
     width:385px;
     background-size: cover;
 }
+.book-promo__promo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        align-items: flex-end;
+        text-align: right;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
 .book-promo__title {
     font-weight: 700;
     color: #feae1c; 
-    margin-bottom: 15px;
+    margin-bottom: -10px;
     letter-spacing:2.4px;
     line-height:16.8px;
     font-size: 12px;
@@ -65,7 +74,7 @@
 .book-promo__subtitle {
     font-size: 38px;
     color: #ffffff; 
-    margin-bottom: 20px;
+    margin-bottom: -10px;
     font-family: "Della Respira", serif;
 }
 .book-promo__subtitle-dot {
