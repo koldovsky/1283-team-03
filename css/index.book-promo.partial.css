@@ -125,13 +125,11 @@
           padding: 70px 0;
         }
       }
-      @media (min-width: 768px) {
         .book-promo__book-cover-container,
         .book-promo__promo-text-container {
           padding: 0 30px;
         }
-      }
-      @media (min-width: 768px) {
+    
         .book-promo__subtitle {
           font-size: 47px;
           margin: auto;
@@ -144,23 +142,21 @@
           font-size: 23px;
           margin: auto;
         }
-      }
       
       @media (min-width: 1440px) {
         #book-promo {
-          background: url ('../img/book-promo-background.webp');
+          background: url('../img/book-promo-background.webp');
           background-size: cover;
         }
       }
-      @media (min-width: 1440px) {
+
         .book-promo__book-cover-container {
           margin-left: 120px;
         }
         .book-promo__promo-text-container {
           margin-right: 120px;
         }
-      }
-      @media (min-width: 1440px) {
+      
         .book-promo__subtitle {
           font-size: 56px;
           margin: auto;
@@ -172,7 +168,7 @@
           font-size: 26px;
           margin: auto;
         }
-      }
+
       @media (min-width: 2560px) {
         .book-promo__book-cover-container {
           margin-left: 680px;
