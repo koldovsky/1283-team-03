@@ -190,6 +190,7 @@
 /* Стилі для мобільних пристроїв (до 768px) */
 
 /* Стилі для мобільних пристроїв (до 768px) */
+
 @media (max-width: 768px) {
     #book-promo {
       display: flex;
@@ -211,8 +212,8 @@
       box-sizing: border-box;
     }
     .book-promo__book-cover {
-      width: 100%; /* Встановлюємо ширину на 100% */
-      max-width: 300px; /* Максимальна ширина, щоб не було занадто великою */
+      width: 80%; /* Зменшуємо ширину */
+      max-width: 300px; /* Максимальна ширина */
       height: auto;
       box-sizing: border-box;
     }
