@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function showTestimonial(index) {
     testimonials.forEach((testimonial, i) => {
-      testimonial.style.display = (i === index) ? 'block' : 'none';
+      testimonial.classList.toggle('active', i === index);
     });
   }
 
