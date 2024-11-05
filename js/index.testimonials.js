@@ -1,4 +1,14 @@
+const testimonials = document.querySelectorAll('.testimonial');
 const indicators = document.querySelectorAll('.indicator');
+const prevButton = document.querySelector('.carousel-prev');
+const nextButton = document.querySelector('.carousel-next');
+let currentIndex = 0;
+
+function showTestimonial(index) {
+  testimonials.forEach((testimonial, i) => {
+    testimonial.style.display = (i === index) ? 'block' : 'none';
+  });
+}
 
 function updateIndicators() {
   indicators.forEach((indicator, index) => {
@@ -15,13 +25,13 @@ indicators.forEach((indicator, index) => {
 });
 
 prevButton.addEventListener('click', () => {
-  currentIndex = (currentIndex > 0) ? currentIndex - 1 : Math.ceil(testimonials.length / 3) - 1;
+  currentIndex = (currentIndex > 0) ? currentIndex - 1 : testimonials.length - 1;
   showTestimonial(currentIndex);
   updateIndicators();
 });
 
 nextButton.addEventListener('click', () => {
-  currentIndex = (currentIndex < Math.ceil(testimonials.length / 3) - 1) ? currentIndex + 1 : 0;
+  currentIndex = (currentIndex < testimonials.length - 1) ? currentIndex + 1 : 0;
   showTestimonial(currentIndex);
   updateIndicators();
 });
