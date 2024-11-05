@@ -161,16 +161,27 @@
   text-align: center;
   box-sizing: border-box;
 }
-.book-promo__title,
-.book-promo__subtitle,
-.book-promo__description,
-.book-promo__button {
+.book-promo__title {
+
+}
+.book-promo__subtitle {
   width: 80%; /* Встановлюємо однаковий відсоток для елементів тексту */
   max-width: 300px; /* Максимальна ширина для елементів тексту */
   text-align: center;
+  font-size: 12 px;
 }
+.book-promo__description {
+  width: 80%; /* Встановлюємо однаковий відсоток для елементів тексту */
+  max-width: 300px; /* Максимальна ширина для елементів тексту */
+  text-align: center;
+  font-size:38 px;
+}
+
 .book-promo__button {
   padding: 10px 20px;
+  width: 80%; /* Встановлюємо однаковий відсоток для елементів тексту */
+  max-width: 300px; /* Максимальна ширина для елементів тексту */
+  text-align: center;
 }
 }
 
