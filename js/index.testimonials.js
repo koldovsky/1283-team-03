@@ -15,6 +15,7 @@ carousel.appendChild(nextButton);
 
 function showTestimonial(index) {
   carousel.style.transform = `translateX(-${index * 100}%)`;
+  carousel.style.transition = 'transform 0.5s ease';  
 }
 
 prevButton.addEventListener('click', () => {

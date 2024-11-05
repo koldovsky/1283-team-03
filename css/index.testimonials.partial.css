@@ -18,14 +18,12 @@
     display: flex;
     overflow: hidden;
     position: relative;
-    scroll-behavior: smooth;
     width: 100%;
   }
   
   .testimonial {
-    min-width: 100%;
-    padding: 1rem;
-    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
   }
   
   .testimonial__quote {
