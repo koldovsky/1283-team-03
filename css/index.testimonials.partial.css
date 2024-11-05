@@ -1,11 +1,15 @@
-#testimonials {
-  text-align: center;
-  padding: 3rem 2rem;
+
+.w-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
   background-color: #f9f9f9;
+}
+
+.w-section__content {
+  padding: 3rem 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 .testimonials__title {
@@ -14,16 +18,17 @@
   color: #333;
 }
 
+
 .testimonials__subtitle {
   font-size: 1rem;
   color: #666;
   margin-bottom: 2rem;
 }
 
+
 .testimonials__carousel {
   display: flex;
   overflow: hidden;
-  position: relative;
   scroll-behavior: smooth;
   width: 100%;
 }
@@ -35,84 +40,20 @@
   transition: transform 0.5s ease;
 }
 
-.testimonial__quote {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  color: #333;
-  position: relative;
-  margin-bottom: 1.5rem;
-}
-
-.testimonial__icon {
-  font-size: 2rem;
-  color: #999;
-  display: inline-block;
-  margin-bottom: 0.5rem;
-}
-
-.testimonial__author {
-  display: flex;
-  align-items: center;
-  margin-top: 1rem;
-}
-
-.testimonial__author-image {
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  margin-right: 1rem;
-}
-
-.testimonial__author-name {
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-.testimonial__author-role {
-  font-size: 0.875rem;
-  color: #666;
-}
-
-.testimonials__highlight {
-  margin-top: 2rem;
-  font-style: italic;
-}
-
-.testimonials__highlight-text {
-  font-size: 1.2rem;
-  color: #555;
-  line-height: 1.5;
-}
-
-.testimonials__highlight-author {
-  font-size: 1rem;
-  color: #333;
-  margin-top: 0.5rem;
-}
-
 .carousel-prev, .carousel-next {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
   background-color: #333;
   color: #fff;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
   opacity: 0.8;
-  z-index: 10;
   border-radius: 50%;
+  cursor: pointer;
 }
 
-.carousel-prev:hover, .carousel-next:hover {
-  opacity: 1;
-}
 
-.carousel-prev {
-  left: 10px;
-}
-
-.carousel-next {
-  right: 10px;
+.w-section__footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
 }
