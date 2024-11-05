@@ -1,23 +1,18 @@
-/*body {
-    margin: 0;
-    padding: 0; 
-    height: 100%;
-}*/
 #book-promo {
-    display:flex;
-    background-size: cover;
-    position:relative;
-    justify-content: center;
-    align-items:center;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
-    padding:35px;
-    width:100%;
-    margin: 0 auto;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-    height:100vh;
-    gap:55px;
+  display:flex;
+  background-size: cover;
+  position:relative;
+  justify-content: center;
+  align-items:center;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  padding:35px;
+  width:100%;
+  margin: 0 auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  height:100vh;
+  gap:55px;
 }
 
 #book-promo::before {
@@ -38,9 +33,9 @@
     overflow: hidden; 
 }
 @media (max-width: 768px) {
-    #book-promo::before {
-       background-attachment: scroll;
-    }
+  #book-promo::before {
+     background-attachment: scroll;
+  }
 }
 #book-promo::after {
     content: "";
@@ -114,78 +109,151 @@
     color:black;
     }
 
-
-
-
-
-  /* Стандартні стилі */
-.book-promo {
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-}
-
-/* Стилі для мобільних пристроїв (до 768px) */
+   #book-promo { 
+      display: flex; 
+      flex-direction: row; 
+      gap: 5px; 
+      background-attachment: scroll;
+  } 
 @media (max-width: 768px) {
-#book-promo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  width: 100%;
-  height: auto;
-  gap: 20px;
+  #book-promo {
+    display: flex;
+    background-size: cover; 
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    box-sizing: border-box;
+    background-attachment: scroll;
+  }
+  .book-promo__image-container {
+    order: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    transform: translateX(15px);
+  }
+  .book-promo__book-cover {
+    width: 80%;
+     max-width: 300px;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .book-promo__promo-text {
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .book-promo__title {
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+  }
+  .book-promo__subtitle {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .book-promo__description {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .book-promo__button {
+    font-size: 12px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  #book-promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    box-sizing: border-box;
+  }
+  .book-promo__image-container {
+    order: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    transform: translateX(15px);
+  }
+  .book-promo__book-cover {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .book-promo__promo-text {
+    order: 2;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .book-promo__title, 
+  .book-promo__subtitle, 
+  .book-promo__description { 
+    max-width: 300px;
+    margin: 0 auto; 
+    word-wrap: break-word;
+  }
+  .book-promo__title {
+    text-align: center;
+    font-size: 12px;
+    word-wrap: break-word; 
+    margin-bottom: 10px;
+  }
+  .book-promo__subtitle {
+    text-align: center;
+    font-size: 47px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+  }
+  .book-promo__description {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+  .book-promo__button {
+    padding: 12px 24px;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) { 
+  #book-promo { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 40px; 
+    width: 100%; 
+    height: auto; 
+    gap: 30px;
   box-sizing: border-box;
+  }
 }
-.book-promo__image-container {
-  order: 1;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-}
-.book-promo__book-cover {
-  width: 80%; /* Зменшуємо ширину */
-  max-width: 300px; /* Максимальна ширина */
-  height: auto;
-  box-sizing: border-box;
-}
-.book-promo__promo-text {
-  order: 2;
-  width: 100%; /* Ширина текстового контейнера */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-sizing: border-box;
-}
-.book-promo__title {
-  width: 80%;
-  max-width: 300px;
-  text-align: center;
-}
-.book-promo__subtitle {
-  width: 80%; /* Встановлюємо однаковий відсоток для елементів тексту */
-  max-width: 300px; /* Максимальна ширина для елементів тексту */
-  text-align: center;
-  font-size: 12 px;
-}
-.book-promo__description {
-  width: 80%;
-  max-width: 300px;
-  text-align: center;
-  font-size: 25 px;
-}
-
-.book-promo__button {
-  padding: 10px 20px;
-  width: 80%;
-  max-width: 300px;
-  text-align: center;
-}
-}
-
-  
-
