@@ -1,5 +1,4 @@
 
-
 header {
   background: var(--primary-header-background-color);
   position: relative;
@@ -214,10 +213,6 @@ header {
     height: 33px;
     width: 33px;
     border-radius: 50%;
-  }
-
-  .header__socials-item:hover{
-    background-color: white;
   }
 
   .header__socials-item img {
