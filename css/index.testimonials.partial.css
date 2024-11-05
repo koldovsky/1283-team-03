@@ -17,22 +17,18 @@
 }
 
 .testimonials__carousel {
-  display: flex;
-  overflow: hidden;
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .testimonial {
-  flex-shrink: 0;
+  display: none;
   width: 100%;
-  box-sizing: border-box;
-  padding: 0 10px;
-  display: none; /* спочатку приховано */
 }
 
 .testimonial.active {
-  display: block; /* показуємо активний відгук */
+  display: block;
 }
 
 .testimonial__quote {
