@@ -244,16 +244,16 @@
     text-align: center;
   }
 }
-@media (min-width: 1024px) { 
-  #book-promo { 
+@media (min-width: 1024px) {
+   #book-promo { 
     display: flex; 
     flex-direction: row; 
     justify-content: center; 
-    align-items: center; 
-    padding: 40px; 
-    width: 100%; 
-    height: auto; 
-    gap: 30px;
-  box-sizing: border-box;
-  }
+    align-items: center;
+     padding: 40px; 
+     width: 100%; 
+     height: auto; 
+     gap: 40px; 
+     box-sizing: border-box; 
+    }
 }
