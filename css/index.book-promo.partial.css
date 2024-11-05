@@ -116,5 +116,63 @@
 
 
 
+
+
+  /* Стандартні стилі */
+.book-promo {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+/* Стилі для мобільних пристроїв (до 768px) */
+@media (max-width: 768px) {
+#book-promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  gap: 20px;
+  box-sizing: border-box;
+}
+.book-promo__image-container {
+  order: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.book-promo__book-cover {
+  width: 80%; /* Зменшуємо ширину */
+  max-width: 300px; /* Максимальна ширина */
+  height: auto;
+  box-sizing: border-box;
+}
+.book-promo__promo-text {
+  order: 2;
+  width: 100%; /* Ширина текстового контейнера */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+.book-promo__title,
+.book-promo__subtitle,
+.book-promo__description,
+.book-promo__button {
+  width: 80%; /* Встановлюємо однаковий відсоток для елементів тексту */
+  max-width: 300px; /* Максимальна ширина для елементів тексту */
+  text-align: center;
+}
+.book-promo__button {
+  padding: 10px 20px;
+}
+}
+
   
 
