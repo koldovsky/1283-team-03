@@ -10,12 +10,12 @@ nextButton.innerHTML = '&#10095;';
 prevButton.className = 'carousel-prev';
 nextButton.className = 'carousel-next';
 
-carousel.appendChild(prevButton);
-carousel.appendChild(nextButton);
+carousel.parentNode.appendChild(prevButton);
+carousel.parentNode.appendChild(nextButton);
 
 function showTestimonial(index) {
-  carousel.style.transform = `translateX(-${index * 100}%)`;
-  carousel.style.transition = 'transform 0.5s ease';  
+  const offset = index * 100; 
+  carousel.style.transform = `translateX(-${offset}%)`;
 }
 
 prevButton.addEventListener('click', () => {
