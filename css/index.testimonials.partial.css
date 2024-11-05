@@ -1,13 +1,17 @@
 #testimonials {
-  max-width: 1200px;
-  width: 100%;
-  padding: 2rem;
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .testimonials__title {
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: #333;
 }
 
 .testimonials__subtitle {
@@ -17,30 +21,33 @@
 }
 
 .testimonials__carousel {
-  position: relative;
-  width: 100%;
+  display: flex;
   overflow: hidden;
+  position: relative;
+  scroll-behavior: smooth;
+  width: 100%;
 }
 
 .testimonial {
-  display: none;
-  width: 100%;
-}
-
-.testimonial.active {
-  display: block;
+  min-width: 100%;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  transition: transform 0.5s ease;
 }
 
 .testimonial__quote {
   font-size: 1.2rem;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #333;
   position: relative;
+  margin-bottom: 1.5rem;
 }
 
 .testimonial__icon {
   font-size: 2rem;
   color: #999;
+  display: inline-block;
+  margin-bottom: 0.5rem;
 }
 
 .testimonial__author {
@@ -51,13 +58,19 @@
 
 .testimonial__author-image {
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   margin-right: 1rem;
 }
 
 .testimonial__author-name {
   font-weight: bold;
+  font-size: 1rem;
+}
+
+.testimonial__author-role {
+  font-size: 0.875rem;
+  color: #666;
 }
 
 .testimonials__highlight {
@@ -68,6 +81,7 @@
 .testimonials__highlight-text {
   font-size: 1.2rem;
   color: #555;
+  line-height: 1.5;
 }
 
 .testimonials__highlight-author {
@@ -86,8 +100,9 @@
   font-size: 2rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
-  opacity: 0.6;
+  opacity: 0.8;
   z-index: 10;
+  border-radius: 50%;
 }
 
 .carousel-prev:hover, .carousel-next:hover {
@@ -100,23 +115,4 @@
 
 .carousel-next {
   right: 10px;
-}
-
-.carousel-indicators {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
-.indicator {
-  width: 10px;
-  height: 10px;
-  background-color: #ccc;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.indicator.active {
-  background-color: #333;
 }
