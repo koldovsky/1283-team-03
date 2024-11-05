@@ -93,6 +93,7 @@
       .online-events__details {
         text-align: center;
         display: flex;
+        margin: auto;
       }
         .online-events__item-image {
           width: 70px;
@@ -110,8 +111,8 @@
         .online-events__item-info {
           display: flex;
           flex-direction: column;
-          align-items: start;
-          margin: 0 20px;
+          align-items: flex-start;
+          margin-top: 10px;
         }
           .online-events__item-date {
             font-family: var(--primary-font-family);
@@ -120,6 +121,8 @@
             letter-spacing: 2.4px;
             margin-bottom: 20px;
             color: var(--primary-partial-text-color);
+            padding-top: 13px;
+            margin-left: 15px;
           }
 
           .online-events__item-status {
@@ -127,13 +130,16 @@
             font-size: 1rem;
             font-weight: bold;
             color: var(--secondary-headlines-color);
-            margin-bottom: 5px;
+            padding-top: 10px;
+            margin-left: 15px;
           }
 
           .online-events__item-time {
             font-family: var(--primary-font-family);
             font-size: 1rem;
             color: var(--primary-partial-text-color);
+            padding-top: 10px;
+            margin-left: 15px;
           }
         
 
