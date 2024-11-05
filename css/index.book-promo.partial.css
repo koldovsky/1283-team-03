@@ -117,3 +117,32 @@
 
 
   
+
+
+    @media (max-width: 768px) {
+        #book-promo {
+          flex-direction: column;
+          padding: 20px;
+          height: auto;
+          gap: 20px;
+        }
+        .book-promo__book-cover {
+          width: 100%;
+          height: 200px;
+        }
+        .book-promo__title {
+          font-size: 16px;
+          letter-spacing: 1.2px;
+          line-height: 20px;
+        }
+        .book-promo__subtitle {
+          font-size: 28px;
+        }
+        .book-promo__description {
+          font-size: 16px;
+        }
+        .book-promo__button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
