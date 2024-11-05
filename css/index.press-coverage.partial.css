@@ -203,6 +203,7 @@
                 .main-block__btn-grp {
                     display: block;
                     margin-top: 35px; 
+                    padding-bottom: 20px;
                     /* Iner conteiner for buttons */
                     .main-block__btn-grp-iner{                            
                         margin: -10px;                   
