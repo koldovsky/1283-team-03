@@ -1,7 +1,28 @@
 .online-events {
+  position: relative;
   background: url(../img/dinosaur-events.png);
-  
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  z-index: 1;
+  min-height: 100vh; 
+  padding-top: 100px;
 }
+
+.online-events::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: -1;
+}
+
 .online-events__head-container{
   text-align: center;
   }
@@ -30,50 +51,191 @@
       color:#d1d1d1;
       font-family: var( --primary-font-family);
       font-size: 19px;
+      margin-top: 100px;
+  }
+  
+  @media (min-width: 768px) {
+    .online-events__subtitle {
+      font-size: 2.9rem;
+    }
+  }
+
+  @media (min-width: 1110px) {
+    .online-events__subtitle {
+      font-size: 3.5rem;
+    }
+  }
+
+  .online-events__image {
+    width: 272px;
+    height: 32px;
+    margin: 0 auto;
+  }
+
+  .online-events_content {
+    font-family: var(--primary-font-family);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #d1d1d1;
+    line-height: 26.6px;
+    margin: 25px;
   }
   
   .online-events__list {
-
+    max-width: 1192px;
   }
+    .online-events__items {
+      display: flex;
+      flex-direction: column;
+      margin: 50px 0;
+      flex-wrap: wrap;
+    }
+      .online-events__details {
+        text-align: center;
+        display: flex;
+        margin: auto;
+      }
+        .online-events__item-image {
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+        }
 
-.online-events__item {
-   
-}
+        @media (min-width: 768px) {
+          .online-events__item-image {
+            width: 120px;
+            height: 120px;
+          }
+        }
 
-.online-events__item-details {
-   
-}
+        .online-events__item-info {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-top: 10px;
+        }
+          .online-events__item-date {
+            font-family: var(--primary-font-family);
+            font-size: 0.8rem;
+            font-weight: bold;
+            letter-spacing: 2.4px;
+            margin-bottom: 20px;
+            color: var(--primary-partial-text-color);
+            padding-top: 13px;
+            margin-left: 15px;
+          }
 
-.online-events__item-image {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-}
+          .online-events__item-status {
+            font-family: var(--primary-font-family);
+            font-size: 1rem;
+            font-weight: bold;
+            color: var(--secondary-headlines-color);
+            padding-top: 10px;
+            margin-left: 15px;
+          }
 
-.online-events__item-info {
-   
-}
+          .online-events__item-time {
+            font-family: var(--primary-font-family);
+            font-size: 1rem;
+            color: var(--primary-partial-text-color);
+            padding-top: 10px;
+            margin-left: 15px;
+          }
+        
 
-.online-events__item-info__date {
+        @media (min-width: 768px) {
+          .events__item-info {
+            margin-top: 15px;
+          }
+        }
+      
+
+      @media (min-width: 768px) {
+        .online-events__details {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          text-align: start;
+        }
+      }
+
+      @media (min-width: 1110px) {
+        .online-events__details {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          text-align: start;
+        }
+      }
+
+      .online-events__item-description {
+        text-align: start;
+        padding-bottom: auto;
+      }
+        .online-events__item-description__title {
+          font-family: var(--secondary-font-family);
+          font-size: 24px;
+          font-weight: 400;
+          color: var(--primary-partial-text-color);
+        }
+
+        @media (min-width: 768px) {
+          .online-events__item-description__title {
+            margin-right: 20px;
+          }
+        }
+
+        @media (min-width: 1110px) {
+          .online-events__item-description__title {
+            font-size: 1.5rem;
+          }
+        }
+
+        .online-events__item-description__subtitle {
+          font-family: var(--primary-font-family);
+          font-size: 16px;
+          font-weight: 400;
+          color: #d1d1d1;
+        
+          margin-top: 50px;
+        }
+
+        @media (min-width: 768px) {
+          .online-events__item-description__subtitle {
+            margin: auto;
+            padding-left: 20px;
+          }
+        }
+      
+
+      @media (min-width: 768px) {
+        .online-events__item-description {
+          display: flex;
+          flex-direction: row;
+          flex: 1;
+        }
+      }
     
-}
 
-.online-events__item-info__status {
-    
-}
+    @media (min-width: 768px) {
+      .online-events__items {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 55px;
+      }
+    }
 
-.online-events__item-info__hour {
-    
-
-.online-events__item-description {
-  
-  
-}
-
-.online-events__item-description__title {
-  
-}
-
-.online-events__item-description__subtitle {
-  
-}
+    .online-events__divider {
+      margin: 20px 0;
+      border: 0;
+      height: 1px;
+      color: #FFFFFF;
+    }
+    .online-events__divider {
+      width: 100%;
+      height: 1px;
+      background-color: var(--divider-color, #d1d1d1); /* колір можна змінити через змінну */
+      border: none;
+      margin: 20px 0; /* відступи зверху і знизу */
+    }

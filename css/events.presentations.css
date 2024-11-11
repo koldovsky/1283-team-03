@@ -56,11 +56,16 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    margin: 25px;
 
     @media (min-width: 768px) {
       flex-direction: row;
       flex-wrap: wrap;
       gap: 2rem;
+    }
+
+    @media (min-width: 1000px) {
+      margin: auto;
     }
 
     .presentation__card {

@@ -14,7 +14,7 @@
   --secondary-brand-color: #f4ebd9;
   --primary-headlines-color: #7e8734;
   --secondary-headlines-color: #feae1c;
-  scroll-behavior: smooth;
+  --scroll-behavior: smooth;
   --primary-font-family: "DM Sans", sans-serif;
   --secondary-font-family: "Della Respira", serif;
   --primary-text-color: #212121;
