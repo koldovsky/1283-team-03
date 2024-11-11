@@ -56,8 +56,58 @@
 }
 
 
-
-.awards__carousel-item-image  {
-  width: 150px;
+.awards__carousel{
+  padding: 0.7em;
+}
+.awards__element-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--events-presentations-card-color);
+  border-radius: 1.6rem;
+  padding: 2.5em 1.7em;
 }
 
+.awards__carousel-item-image  {
+  width: 120px;
+  
+  margin-bottom: 1.7em;
+}
+.awards__carousel-item-title {
+
+  font-family: var(--secondary-font-family);
+  font-size: 1.4em;
+  font-weight: 200;
+  color: var(--primary-partial-text-color);
+  text-align: center;
+
+
+}
+.awards__carousel-item-line {
+  display: block;
+  
+  background-color: var(--secondary-headlines-color);
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 2.3rem;
+  height: 0.2rem;
+}
+
+.awards__carousel-item-description {
+
+  font-family: var(--primary-font-family);
+  font-size: 1em;
+  color: var(--primary-partial-text-color);
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.awards__carousel-item-link {
+  font-family: var(--primary-font-family);
+  font-size: 0.9em;
+  font-weight: 600;
+  color: var(--primary-partial-text-color);
+  margin-top: 1.5em;
+
+}
